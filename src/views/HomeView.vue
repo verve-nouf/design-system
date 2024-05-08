@@ -59,7 +59,7 @@
                 Buttons
               </a>
               <a id="hoverTwo">
-                Inputs
+                Dropdowns
               </a>
               <a id="hoverThree">
                 Tags
@@ -169,17 +169,6 @@ window.addEventListener('DOMContentLoaded', () => {
     image.src = '/src/assets/pills.svg'
   });
 
-  /*links.forEach(link => {
-    link.addEventListener('mouseover', () => {
-      image.style.opacity = '1';
-      image.style.right = '0';
-    });
-
-    link.addEventListener('mouseout', () => {
-      image.style.opacity = '0';
-      image.style.right = '-100%';
-    });
-  });*/
 });
 </script>
 
@@ -188,6 +177,7 @@ window.addEventListener('DOMContentLoaded', () => {
   margin: 0;
   padding: 0;
   font-weight: 100;
+  font-family: "Tiempos Fine-light", sans-serif;
 }
 
 
@@ -200,6 +190,8 @@ window.addEventListener('DOMContentLoaded', () => {
   margin: 0;
   padding: 0;
   font-weight: 500;
+  font-family: "Tiempos Fine-medium", sans-serif;
+
 }
 
 #design-h3 {
@@ -221,13 +213,37 @@ window.addEventListener('DOMContentLoaded', () => {
 }
 
 @font-face {
-  font-family: 'Tiempos Fine';
+  font-family: 'Tiempos Fine-regular';
   src: url('/src/assets/WOFF2/tiempos-fine-regular.woff2') format('woff2'),
   url('/src/assets/WOFF2/') format('woff');
 }
 
+@font-face {
+  font-family: 'Tiempos Fine-bold';
+  src: url('/src/assets/WOFF2/tiempos-fine-bold.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
+
+@font-face {
+  font-family: 'Tiempos Fine-light';
+  src: url('/src/assets/WOFF2/tiempos-fine-light.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
+
+@font-face {
+  font-family: 'Tiempos Fine-medium';
+  src: url('/src/assets/WOFF2/tiempos-fine-medium.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
+
+@font-face {
+  font-family: 'Tiempos Fine-semibold';
+  src: url('/src/assets/WOFF2/tiempos-fine-semibold.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
+
 .hero-banner h3 {
-  font-family: "Tiempos Fine", sans-serif;
+  font-family: "Tiempos Fine-bold", sans-serif;
   color: #000;
   font-size: 5.50rem;
   font-style: normal;
@@ -245,7 +261,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 .content-button h3 {
   color: #000;
-  font-family: "Tiempos Fine", sans-serif;
+  font-family: "Tiempos Fine-bold", sans-serif;
   font-size: 1.8875rem;
   font-style: normal;
   font-weight: 700;
@@ -292,7 +308,7 @@ window.addEventListener('DOMContentLoaded', () => {
 }
 
 .text-section a {
-  font-family: "Tiempos Fine", sans-serif;
+  font-family: "Tiempos Fine-light", sans-serif;
   font-weight: 100;
   font-size: 5rem;
   margin-bottom: 15vh;
