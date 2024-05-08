@@ -236,6 +236,10 @@ export default {
     margin-left: 0;
   }
 
+  .article-paragraph p {
+    max-width: 100%
+  }
+
 }
 
 </style>
