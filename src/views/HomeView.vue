@@ -127,10 +127,7 @@ import Footer from "@/components/Footer.vue";
 
 
 window.addEventListener('DOMContentLoaded', () => {
-  const links = document.querySelectorAll('.text-section a');
   const image = document.getElementById('animation-block');
-
-
 
   const hoverOne = document.getElementById('hoverOne');
   const hoverTwo = document.getElementById('hoverTwo');
@@ -222,6 +219,13 @@ window.addEventListener('DOMContentLoaded', () => {
 *:focus {
   outline: none;
 }
+
+@font-face {
+  font-family: 'Tiempos Fine';
+  src: url('/src/assets/WOFF2/tiempos-fine-regular.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
+
 .hero-banner h3 {
   font-family: "Tiempos Fine", sans-serif;
   color: #000;
