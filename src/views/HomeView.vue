@@ -429,7 +429,7 @@ window.addEventListener('DOMContentLoaded', () => {
 }
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 430px) {
   .hamburger-menu {
     padding: 0 80px 0 80px;
   }

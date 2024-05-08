@@ -184,7 +184,7 @@ export default {
   margin-bottom: 120px;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 430px) {
   .article-image img {
     width: 100%;
   }

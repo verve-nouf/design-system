@@ -55,12 +55,11 @@ footer {
 }
 
 
-
 .footer-sepator {
   padding-top: 65px;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 430px) {
   .footer {
     margin-left: 0 !important;
   }
