@@ -56,7 +56,7 @@
               </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/button-image.svg" alt="button-image">
+              <img src="/src/assets/standard-button-image.svg" alt="button-image">
             </div>
           </article>
 
@@ -191,6 +191,9 @@ export default {
 
   .content-hero {
     margin-left: 0;
+    padding: 10vh 20px 0 20px;
+
+
   }
 
   .article-paragraph p {

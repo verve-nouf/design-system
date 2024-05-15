@@ -120,57 +120,6 @@
   </footer>
 </template>
 
-<script setup>
-// Import Vue components
-import SideBar from "@/components/SideBar.vue";
-import Footer from "@/components/Footer.vue";
-
-
-window.addEventListener('DOMContentLoaded', () => {
-  const image = document.getElementById('animation-block');
-
-  const hoverOne = document.getElementById('hoverOne');
-  const hoverTwo = document.getElementById('hoverTwo');
-  const hoverThree = document.getElementById('hoverThree');
-
-  hoverOne.addEventListener('mouseover', () => {
-    image.style.opacity = '1';
-    image.style.right = '0';
-    image.src = '/assets/button-hover-image.svg'
-  });
-
-  hoverOne.addEventListener('mouseout', () => {
-    image.style.opacity = '0';
-    image.style.right = '-100%';
-    image.src = '/assets/button-hover-image.svg'
-  });
-
-  hoverTwo.addEventListener('mouseover', () => {
-    image.style.opacity = '1';
-    image.style.right = '0';
-    image.src = '/assets/dropdown.svg'
-  });
-
-  hoverTwo.addEventListener('mouseout', () => {
-    image.style.opacity = '0';
-    image.style.right = '-100%';
-    image.src = '/assets/dropdown.svg'
-  });
-
-  hoverThree.addEventListener('mouseover', () => {
-    image.style.opacity = '1';
-    image.style.right = '0';
-    image.src = '/assets/pills.svg'
-  });
-
-  hoverThree.addEventListener('mouseout', () => {
-    image.style.opacity = '0';
-    image.style.right = '-100%';
-    image.src = '/assets/pills.svg'
-  });
-
-});
-</script>
 
 <style scoped>
 #deliver-banner {
@@ -607,3 +556,54 @@ window.addEventListener('DOMContentLoaded', () => {
 }
 
 </style>
+
+<script setup>
+import SideBar from "@/components/SideBar.vue";
+import Footer from "@/components/Footer.vue";
+
+
+window.addEventListener('load', () => {
+  const image = document.getElementById('animation-block');
+
+  const hoverOne = document.getElementById('hoverOne');
+  const hoverTwo = document.getElementById('hoverTwo');
+  const hoverThree = document.getElementById('hoverThree');
+
+  hoverOne.addEventListener('mouseover', () => {
+    image.style.opacity = '1';
+    image.style.right = '0';
+    image.src = '/assets/button-hover-image.svg';
+  });
+
+  hoverOne.addEventListener('mouseout', () => {
+    image.style.opacity = '0';
+    image.style.right = '-100%';
+    image.src = '/assets/button-hover-image.svg';
+  });
+
+  hoverTwo.addEventListener('mouseover', () => {
+    image.style.opacity = '1';
+    image.style.right = '0';
+    image.src = '/assets/dropdown.svg';
+  });
+
+  hoverTwo.addEventListener('mouseout', () => {
+    image.style.opacity = '0';
+    image.style.right = '-100%';
+    image.src = '/assets/dropdown.svg';
+  });
+
+  hoverThree.addEventListener('mouseover', () => {
+    image.style.opacity = '1';
+    image.style.right = '0';
+    image.src = '/assets/pills.svg';
+  });
+
+  hoverThree.addEventListener('mouseout', () => {
+    image.style.opacity = '0';
+    image.style.right = '-100%';
+    image.src = '/assets/pills.svg';
+  });
+
+});
+</script>

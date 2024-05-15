@@ -1,8 +1,6 @@
 <template>
   <div class="hamburger-menu">
-    <button @click="toggleSidebar">
-      <img src="/src/assets/hamburger.svg">
-    </button>
+    <img @click="toggleSidebar" src="/src/assets/hamburger-open.svg" alt="" srcset="">
   </div>
   <div class="sidebar" :class="{ 'open': isSidebarOpen }">
     <div class="sidebar-content">
@@ -149,7 +147,7 @@ export default {
 }
 
 .sidebar.open .sidebar-content {
-  width: 60vw;
+  width: 70vw;
 }
 
 
@@ -318,15 +316,14 @@ export default {
 @media only screen and (max-width: 430px) {
   .hamburger-menu {
     padding: 0 80px 0 80px;
-    margin-left: 45vw;
+    margin-left: 70vw;
     margin-top: 25px;
     z-index: 100;
     position: absolute;
   }
 
-  .hamburger-menu button {
-    background-color: #0092E1;
-    border: none;
+  .hamburger-menu img {
+    width: 35px;
   }
 
 }
