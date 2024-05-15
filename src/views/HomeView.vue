@@ -66,7 +66,7 @@
               </a>
             </div>
             <div class="animation-section">
-              <img id="animation-block" src="./src/assets/button-hover-image.svg" alt="">
+              <img id="animation-block" src="./assets/button-hover-image.svg" alt="">
             </div>
           </div>
         </section>
