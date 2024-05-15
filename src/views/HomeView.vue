@@ -136,37 +136,37 @@ window.addEventListener('DOMContentLoaded', () => {
   hoverOne.addEventListener('mouseover', () => {
     image.style.opacity = '1';
     image.style.right = '0';
-    image.src = 'src/assets/button-hover-image.svg'
+    image.src = '/assets/button-hover-image.svg'
   });
 
   hoverOne.addEventListener('mouseout', () => {
     image.style.opacity = '0';
     image.style.right = '-100%';
-    image.src = 'src/assets/button-hover-image.svg'
+    image.src = '/assets/button-hover-image.svg'
   });
 
   hoverTwo.addEventListener('mouseover', () => {
     image.style.opacity = '1';
     image.style.right = '0';
-    image.src = '/src/assets/dropdown.svg'
+    image.src = '/assets/dropdown.svg'
   });
 
   hoverTwo.addEventListener('mouseout', () => {
     image.style.opacity = '0';
     image.style.right = '-100%';
-    image.src = '/src/assets/dropdown.svg'
+    image.src = '/assets/dropdown.svg'
   });
 
   hoverThree.addEventListener('mouseover', () => {
     image.style.opacity = '1';
     image.style.right = '0';
-    image.src = '/src/assets/pills.svg'
+    image.src = '/assets/pills.svg'
   });
 
   hoverThree.addEventListener('mouseout', () => {
     image.style.opacity = '0';
     image.style.right = '-100%';
-    image.src = '/src/assets/pills.svg'
+    image.src = '/assets/pills.svg'
   });
 
 });
