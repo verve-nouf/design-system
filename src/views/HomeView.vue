@@ -66,7 +66,7 @@
               </a>
             </div>
             <div class="animation-section">
-              <img id="animation-block" src="/src/assets/button-hover-image.svg" alt="">
+              <img id="animation-block" src="./src/assets/button-hover-image.svg" alt="">
             </div>
           </div>
         </section>
@@ -79,7 +79,7 @@
 
           <div class="content-section">
             <div class="resource-image">
-              <img src="/src/assets/resources.svg" alt="" srcset="">
+              <img src="./src/assets/resources.svg" alt="" srcset="">
             </div>
             <div class="resource-text">
               <div class="resource-item">
