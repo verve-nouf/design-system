@@ -66,7 +66,7 @@
               </a>
             </div>
             <div class="animation-section">
-              <img id="animation-block" src="/src/assets/button-hover-image.svg" alt="">
+              <img id="animation-block" alt="" src="">
             </div>
           </div>
         </section>
@@ -136,13 +136,13 @@ window.addEventListener('DOMContentLoaded', () => {
   hoverOne.addEventListener('mouseover', () => {
     image.style.opacity = '1';
     image.style.right = '0';
-    image.src = '/src/assets/button-hover-image.svg'
+    image.src = 'src/assets/button-hover-image.svg'
   });
 
   hoverOne.addEventListener('mouseout', () => {
     image.style.opacity = '0';
     image.style.right = '-100%';
-    image.src = '/src/assets/button-hover-image.svg'
+    image.src = 'src/assets/button-hover-image.svg'
   });
 
   hoverTwo.addEventListener('mouseover', () => {
