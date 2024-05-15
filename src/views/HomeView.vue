@@ -198,6 +198,12 @@ window.addEventListener('DOMContentLoaded', () => {
   color: #0092E1;
 }
 
+.text-section #hoverOne, .text-section #hoverTwo, .text-section #hoverThree  {
+  text-decoration: underline #0092E1;
+  text-underline-offset: 25px;
+  cursor: pointer;
+}
+
 .page-container {
   position: relative;
   min-height: 100vh;
@@ -436,11 +442,15 @@ window.addEventListener('DOMContentLoaded', () => {
 
   .hero {
     margin-left: 0;
+    padding: 0 20px;
   }
+
 
   .hero-content-block {
     margin-left: 0;
     flex-direction: column;
+    padding: 0 20px;
+    row-gap: 50px;
   }
 
   .content-button {
@@ -462,6 +472,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   .page-seperator {
     margin-left: 0;
+    padding: 0 20px;
   }
 
   .text-section a {
@@ -477,9 +488,12 @@ window.addEventListener('DOMContentLoaded', () => {
     flex-direction: column;
   }
 
+  .component-section-block {
+    padding: 0 20px;
+  }
 
   .animation-section img {
-    width: 100px;
+    width: 300px;
   }
 
   .resource-image img {
@@ -498,6 +512,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
   .hero-image img {
     display: none;
+  }
+
+  .resource-section-block {
+    padding: 0 20px;
   }
 }
 
