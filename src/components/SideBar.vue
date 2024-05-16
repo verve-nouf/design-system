@@ -315,8 +315,7 @@ export default {
 
 @media only screen and (max-width: 430px) {
   .hamburger-menu {
-    padding: 0 80px 0 80px;
-    margin-left: 70vw;
+    margin-left: 88vw;
     margin-top: 25px;
     z-index: 100;
     position: absolute;
