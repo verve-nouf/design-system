@@ -41,7 +41,97 @@
                   Inputs
                 </a>
               </router-link>
-
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
             </div>
           </div>
         </div>
@@ -139,6 +229,8 @@ export default {
   height: 100vh;
   border: 0.5px solid #DFDFDF;
   box-shadow: 1px 0 4px 0 rgba(0, 0, 0, 0.25);
+  overflow-y: scroll;
+
 }
 
 .sidebar.open {

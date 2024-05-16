@@ -28,11 +28,14 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A button is a user interface (UI) element that users can interact with to trigger an action or perform a specific function within a digital interface. Buttons are a fundamental part of web and software design, providing a clear and actionable way for users to engage with an application.
+                A button is a user interface (UI) element that users can interact with to trigger an action or perform a
+                specific function within a digital interface. Buttons are a fundamental part of web and software design,
+                providing a clear and actionable way for users to engage with an application.
               </p>
               <br>
               <p>
-                They typically consist of a clickable area that responds to user input, such as a mouse click or a tap on a touchscreen device.
+                They typically consist of a clickable area that responds to user input, such as a mouse click or a tap
+                on a touchscreen device.
               </p>
             </div>
           </article>
@@ -52,7 +55,8 @@
             </div>
             <div class="article-paragraph">
               <p>
-                Buttons with ready to use Normal, Hover, Clicked, Loading and Disabled states. All for you to easily understand the magic of “States” layers within the symbols.
+                Buttons with ready to use Normal, Hover, Clicked, Loading and Disabled states. All for you to easily
+                understand the magic of “States” layers within the symbols.
               </p>
             </div>
             <div class="article-image">
@@ -63,15 +67,183 @@
           <article class="article-content">
             <div class="article-subheader">
               <h3>
-                Button with icon
+                Navbar buttons
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Buttons with ready to use Normal, Hover, Clicked, Loading and Disabled states. All for you to easily understand the magic of “States” layers within the symbols.              </p>
+                Buttons with ready to use Normal, Hover, Clicked, Loading and Disabled states. All for you to easily
+                understand the magic of “States” layers within the symbols. </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/button-image.svg" alt="button-image">
+              <img src="/src/assets/navbar-button-image.svg" alt="button-image">
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Rounded buttons
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                Buttons with ready to use Normal, Hover, Clicked, Loading and Disabled states. All for you to easily
+                understand the magic of “States” layers within the symbols. </p>
+            </div>
+            <div class="article-image">
+              <img src="/src/assets/rounded-button-image.svg" alt="button-image">
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Group buttons
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                Buttons with ready to use Normal, Hover, Clicked, Loading and Disabled states. All for you to easily
+                understand the magic of “States” layers within the symbols. </p>
+            </div>
+            <div class="article-image">
+              <img src="/src/assets/group-button-image.svg" alt="button-image">
+            </div>
+          </article>
+
+          <div class="separator">
+            <hr>
+          </div>
+
+          <article class="article-content">
+            <div class="article-header">
+              <h2>
+                Best practices
+              </h2>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                Opt for a single primary button within a layout to emphasize the most critical action. In scenarios
+                where multiple buttons share equal importance, ensure a uniform appearance by employing neutral
+                backgrounds for all buttons.
+                <br><br>
+                When dealing with numerous minor actions, maintain a clean and uncluttered layout by applying outline,
+                subtle, or transparent styles to all buttons. This helps prevent visual overwhelm and ensures a more
+                organized and user-friendly interface.
+              </p>
+            </div>
+            <div class="article-image">
+              <img src="/src/assets/bestpractices-image.svg" alt="button-image">
+            </div>
+          </article>
+
+
+          <div class="separator">
+            <hr>
+          </div>
+
+          <article class="article-content">
+            <div class="article-header">
+              <h2>
+                Anatomy
+              </h2>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                The anatomy of a button in the context of user interfaces typically includes several elements that
+                together create a clickable and interactive element.
+              </p>
+            </div>
+            <div id="anatomy" class="article-image">
+              <img src="/src/assets/buttonanatomy-image.svg" alt="button-image">
+            </div>
+
+            <div class="article-instructions">
+              <div class="instruction">
+                <div class="pointer-container">
+                  <img src="/src/assets/circle-four-pointer.svg" alt="pointer">
+                </div>
+                <div class="instruction-content">
+                  <h4>Icon leftside</h4>
+                  <p>Surface with a color as backdorp for the label and for the optional icons</p>
+                </div>
+              </div>
+
+              <div class="instruction">
+                <div class="pointer-container">
+                  <img src="/src/assets/circle-four-pointer.svg" alt="pointer">
+                </div>
+                <div class="instruction-content">
+                  <h4>Icon rightside</h4>
+                  <p>Surface with a color as backdorp for the label and for the optional icons</p>
+                </div>
+              </div>
+
+              <div class="instruction">
+                <div class="pointer-container">
+                  <img src="/src/assets/circle-four-pointer.svg" alt="pointer">
+                </div>
+                <div class="instruction-content">
+                  <h4>Icon leftside</h4>
+                  <p>Surface with a color as backdorp for the label and for the optional icons</p>
+                </div>
+              </div>
+
+              <div class="instruction">
+                <div class="pointer-container">
+                  <img src="/src/assets/circle-four-pointer.svg" alt="pointer">
+                </div>
+                <div class="instruction-content">
+                  <h4>Icon leftside</h4>
+                  <p>Surface with a color as backdorp for the label and for the optional icons</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <div class="separator">
+            <hr>
+          </div>
+
+          <article class="article-content">
+            <div class="article-header">
+              <h2>
+                Specs
+              </h2>
+            </div>
+            <div id="special-paragraph" class="article-paragraph">
+              <p>
+                Component details and standards such as spacing, sizing, and color.
+              </p>
+            </div>
+            <div class="article-subheader">
+              <h3>
+                Spacing
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                Button spacing refers to the distance or gap between buttons in a user interface. Proper button spacing
+                is essential for creating a visually appealing and user-friendly design.
+              </p>
+            </div>
+            <div class="article-image">
+              <img src="/src/assets/buttonspacing-image.svg" alt="button-image">
+            </div>
+
+            <div class="article-subheader">
+              <h3>
+                Sizing
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                Button sizing in user interface design refers to the dimensions, proportions, and visual representation of buttons. Proper sizing is crucial for creating a visually cohesive and user-friendly interface.
+              </p>
+            </div>
+            <div class="article-image">
+              <img src="/src/assets/buttonspacing-image.svg" alt="button-image">
             </div>
           </article>
 
@@ -123,7 +295,7 @@ export default {
 
 .hero-title-contentblock h1 {
   color: #000;
-  font-family: "Tiempos Fine", sans-serif;
+  font-family: "Tiempos Fine-bold", sans-serif;
   font-size: 3rem;
   font-style: normal;
   font-weight: 700;
@@ -151,7 +323,7 @@ export default {
 
 .article-content .article-header h2 {
   color: #000;
-  font-family: "Tiempos Fine", sans-serif;
+  font-family: "Tiempos Fine-bold", sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 500;
@@ -169,9 +341,9 @@ export default {
   max-width: 75%;
 }
 
-.article-subheader h3  {
+.article-subheader h3 {
   color: #000;
-  font-family: "Tiempos Fine", sans-serif;
+  font-family: "Tiempos Fine-medium", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
@@ -182,6 +354,64 @@ export default {
 .article-content .article-image {
   margin-top: 30px;
   margin-bottom: 120px;
+}
+
+@font-face {
+  font-family: 'Tiempos Fine-regular';
+  src: url('/src/assets/WOFF2/tiempos-fine-regular.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
+
+@font-face {
+  font-family: 'Tiempos Fine-bold';
+  src: url('/src/assets/WOFF2/tiempos-fine-bold.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
+
+@font-face {
+  font-family: 'Tiempos Fine-light';
+  src: url('/src/assets/WOFF2/tiempos-fine-light.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
+
+@font-face {
+  font-family: 'Tiempos Fine-medium';
+  src: url('/src/assets/WOFF2/tiempos-fine-medium.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
+
+@font-face {
+  font-family: 'Tiempos Fine-semibold';
+  src: url('/src/assets/WOFF2/tiempos-fine-semibold.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
+
+.instruction {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+#anatomy {
+  margin-bottom: 50px;
+}
+
+.pointer-container {
+  margin-right: 25px;
+}
+
+.instruction-content h4 {
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.instruction-content p {
+  font-family: Lato, sans-serif;
+  color: #808080;
+}
+
+#special-paragraph {
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 430px) {
