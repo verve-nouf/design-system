@@ -10,55 +10,39 @@
         </router-link>
       </div>
       <div class="search-bar">
-        <input style="color: #007AFF" type="text" placeholder="Search...">
+        <input type="text"  placeholder="Search...">
       </div>
       <div class="sidebar-separator">
         <hr>
       </div>
 
       <div class="sidebar-items">
-        <input type="checkbox" id="item1-toggle" class="toggle-checkbox">
-        <div class="item" id="item1">
-          <label for="item1-toggle" class="item-label">
-            <div class="item-header">
-              <h3>Components</h3>
-              <div class="indicator-icon">
-                <img src="/src/assets/indicator-closed.svg" alt="indicator-closed-image">
-              </div>
-            </div>
-          </label>
-          <div class="sub-items">
-            <div class="sub-item">
-              <router-link to="/overview">
-                <a class="active">
-                    Buttons
-                </a>
-              </router-link>
-            </div>
-            <div class="sub-item">
-              <router-link to="/inputs">
-                <a class="active">
-                  Inputs
-                </a>
-              </router-link>
-
-            </div>
-          </div>
-        </div>
-
+        <!-- here -->
         <input type="checkbox" id="item2-toggle" class="toggle-checkbox">
         <div class="item" id="item2">
           <label for="item2-toggle" class="item-label">
             <div class="item-header">
-              <h3>Fonts</h3>
+              <h3>Overview</h3>
               <div class="indicator-icon">
                 <img src="/src/assets/indicator-closed.svg" alt="indicator-closed-image">
               </div>
             </div>
           </label>
           <div class="sub-items">
-            <div class="sub-item">Sub-Item 2.1</div>
-            <div class="sub-item">Sub-Item 2.2</div>
+            <div class="sub-item">
+              <router-link to="/started">
+                <a class="active">
+                  Get Started
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/buttons">
+                <a class="active">
+                  Design
+                </a>
+              </router-link>
+            </div>
           </div>
         </div>
 
@@ -78,27 +62,11 @@
           </div>
         </div>
 
-        <input type="checkbox" id="item4-toggle" class="toggle-checkbox">
-        <div class="item" id="item4">
-          <label for="item4-toggle" class="item-label">
-            <div class="item-header">
-              <h3>Design Language</h3>
-              <div class="indicator-icon">
-                <img src="/src/assets/indicator-closed.svg" alt="indicator-closed-image">
-              </div>
-            </div>
-          </label>
-          <div class="sub-items">
-            <div class="sub-item">Sub-Item 4.1</div>
-            <div class="sub-item">Sub-Item 4.2</div>
-          </div>
-        </div>
-
         <input type="checkbox" id="item5-toggle" class="toggle-checkbox">
         <div class="item" id="item5">
           <label for="item5-toggle" class="item-label">
             <div class="item-header">
-              <h3>Overview</h3>
+              <h3>Fonts</h3>
               <div class="indicator-icon">
                 <img src="/src/assets/indicator-closed.svg" alt="indicator-closed-image">
               </div>
@@ -109,6 +77,129 @@
             <div class="sub-item">Sub-Item 5.2</div>
           </div>
         </div>
+
+
+        <input type="checkbox" id="item1-toggle" class="toggle-checkbox">
+        <div class="item" id="item1">
+          <label for="item1-toggle" class="item-label">
+            <div class="item-header">
+              <h3>Components</h3>
+              <div class="indicator-icon">
+                <img src="/src/assets/indicator-closed.svg" alt="indicator-closed-image">
+              </div>
+            </div>
+          </label>
+          <div class="sub-items">
+            <div class="sub-item">
+              <router-link to="/buttons">
+                <a class="active">
+                  Avatars
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Breadcrumbs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/buttons">
+                <a class="active">
+                  Buttons
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Cards
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Company logos
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Cubes
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Dropdowns
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Footer
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Forms
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Grid
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Inputs
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Notifications
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Options
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Pageheader
+                </a>
+              </router-link>
+            </div>
+            <div class="sub-item">
+              <router-link to="/inputs">
+                <a class="active">
+                  Pills
+                </a>
+              </router-link>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
     </div>
   </div>
@@ -139,6 +230,8 @@ export default {
   height: 100vh;
   border: 0.5px solid #DFDFDF;
   box-shadow: 1px 0 4px 0 rgba(0, 0, 0, 0.25);
+  overflow-y: scroll;
+
 }
 
 .sidebar.open {
@@ -152,12 +245,16 @@ export default {
 
 
 ::placeholder {
-  color: #0092E1;
+  color: black;
 }
 
 .sidebar-logo {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+input {
+  color: black;
 }
 
 .search-bar input {
@@ -167,12 +264,12 @@ export default {
   background-color: transparent;
   border: solid 1px #000000;
   padding-left: 15px;
-  color: #007AFF;
   font-family: Lato, "sans-serif";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  color: black !important;
 }
 
 .sidebar-separator {
@@ -258,7 +355,6 @@ export default {
   font-weight: 500;
   line-height: normal;
 
-
 }
 
 .sub-items .sub-item a {
@@ -266,7 +362,7 @@ export default {
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  color: #0092E1;
+  color: black;
   padding: 3px 6px;
 }
 
@@ -333,6 +429,12 @@ export default {
   }
 }
 
+@media only screen and (max-width: 820px) {
+
+  .sidebar-content {
+    width: 35vw;
+  }
+}
 
 @media only screen and (min-width: 2000px) {
   .sidebar-logo img {

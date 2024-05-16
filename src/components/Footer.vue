@@ -90,5 +90,11 @@ footer {
   }
 }
 
+@media only screen and (max-width: 820px) {
+  .footer {
+    margin-left: 35vw;
+  }
+}
+
 
 </style>
