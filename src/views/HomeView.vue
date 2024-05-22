@@ -78,9 +78,11 @@
           </div>
 
           <div class="content-section">
+            <!--
             <div class="resource-image">
               <img src="/src/assets/resources.svg" alt="" srcset="">
             </div>
+            -->
             <div class="resource-text">
               <div class="resource-item">
                 <a>Accesibility </a>

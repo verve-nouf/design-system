@@ -9,10 +9,10 @@
               <p class="mini-title">Components</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Avatars</h1>
+              <h1>Breadcrumbs</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">An avatar is a graphical or text representation that symbolizes an individual or a collective entity. It serves not only as a visual identifier but also provides supplementary details, including the person's status and ongoing activities.</p>
+              <p class="description">Clickable elements used to indicate navigation paths.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -24,52 +24,16 @@
 
           <article class="article-content">
             <div class="article-header">
-              <h2>Types</h2>
-            </div>
-            <div class="article-subheader">
-              <h3>
-                Resident avatars
-              </h3>
+              <h2>Usage</h2>
             </div>
             <div class="article-paragraph">
               <p>
-                A circle avatar image is a common design element used to represent a user or entity within a digital interface. This circular image is often associated with profile pictures, user icons, or identifiers.
+                A breadcrumb is a user interface (UI) element that helps users navigate through a digital interface by showing their current location within the application's hierarchy. Breadcrumbs provide a clear and actionable way for users to understand their position and easily return to previous pages or sections.
               </p>
-            </div>
-            <div class="article-image">
-              <img src="/src/assets/avatar-residents-image.svg" alt="button-image">
-            </div>
-          </article>
-
-          <article class="article-content">
-            <div class="article-subheader">
-              <h3>
-                Staff avatars
-              </h3>
-            </div>
-            <div class="article-paragraph">
+              <br>
               <p>
-                Circle avatar initials are a design element commonly used when a user hasn't uploaded a custom profile picture or when a simplified representation is preferred. Instead of an image, the avatar consists of stylized initials representing the user's name.
+                They typically consist of a series of clickable links that represent the path taken to reach the current page, responding to user input, such as a mouse click or a tap on a touchscreen device.
               </p>
-            </div>
-            <div class="article-image">
-              <img src="/src/assets/avatar-family-image.svg" alt="avatar-staff-image">
-            </div>
-          </article>
-
-          <article class="article-content">
-            <div class="article-subheader">
-              <h3>
-                Family avatars
-              </h3>
-            </div>
-            <div class="article-paragraph">
-              <p>
-                Circle avatar initials are a design element commonly used when a user hasn't uploaded a custom profile picture or when a simplified representation is preferred. Instead of an image, the avatar consists of stylized initials representing the user's name.
-              </p>
-            </div>
-            <div class="article-image">
-              <img src="/src/assets/avatar-family-image.svg" alt="avatar-family-image">
             </div>
           </article>
 
@@ -77,19 +41,50 @@
             <hr>
           </div>
 
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Breadcrumb
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                Help users to quickly move back to higher levels of the hierarchy, with numbers.
+              </p>
+            </div>
+            <div class="article-image">
+              <img src="/src/assets/breadcrumb-image.svg" alt="breadcrumb-image">
+            </div>
+          </article>
+
+
+          <div class="separator">
+            <hr>
+          </div>
 
           <article class="article-content">
             <div class="article-header">
               <h2>
-                Accesibility
+                Best practices
               </h2>
             </div>
             <div class="article-paragraph">
               <p>
-                Icons on small avatars (32 pixels) can be challenging for those with visibility impairments. Consider adding a text status or tooltip for clarity. Avatars are static by default, so if you add interactions, ensure you include states and keyboarding interactions for accessibility.
+                Opt for a single primary button within a layout to emphasize the most critical action. In scenarios
+                where multiple buttons share equal importance, ensure a uniform appearance by employing neutral
+                backgrounds for all buttons.
+                <br><br>
+                When dealing with numerous minor actions, maintain a clean and uncluttered layout by applying outline,
+                subtle, or transparent styles to all buttons. This helps prevent visual overwhelm and ensures a more
+                organized and user-friendly interface.
               </p>
             </div>
+            <div class="article-image">
+              <img src="/src/assets/breadcrumb-image-practices.svg" alt="breadcrumbs-bestpractices-image">
+            </div>
           </article>
+
+
 
         </div>
       </div>
@@ -108,7 +103,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "OverviewView",
+  name: "iconsFrontOfficeView",
   components: {SideBar, Footer}
 }
 </script>
@@ -157,7 +152,7 @@ export default {
 }
 
 .hero-title-contentblock .description {
-  color: rgb(103, 94, 94);
+  color: rgba(0, 0, 0, 0.50);
   font-family: Lato, sans-serif;
   font-size: 1.125rem;
   font-style: normal;

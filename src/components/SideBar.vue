@@ -10,7 +10,7 @@
         </router-link>
       </div>
       <div class="search-bar">
-        <input type="text"  placeholder="Search...">
+        <input type="text" placeholder="Search...">
       </div>
       <div class="sidebar-separator">
         <hr>
@@ -37,7 +37,7 @@
               </router-link>
             </div>
             <div class="sub-item">
-              <router-link to="/buttons">
+              <router-link to="/design">
                 <a class="active">
                   Design
                 </a>
@@ -57,8 +57,22 @@
             </div>
           </label>
           <div class="sub-items">
-            <div class="sub-item">Sub-Item 3.1</div>
-            <div class="sub-item">Sub-Item 3.2</div>
+            <div class="sub-item">
+              <router-link to="/frontoffice-icons">
+                <a class="active">
+                  Front-office
+                </a>
+              </router-link>
+            </div>
+
+            <div class="sub-item">
+              <router-link to="/backoffice-icons">
+                <a class="active">
+                  Back-office
+                </a>
+              </router-link>
+            </div>
+
           </div>
         </div>
 
@@ -73,8 +87,21 @@
             </div>
           </label>
           <div class="sub-items">
-            <div class="sub-item">Sub-Item 5.1</div>
-            <div class="sub-item">Sub-Item 5.2</div>
+            <div class="sub-item">
+              <router-link to="/frontoffice-icons">
+                <a class="active">
+                  Brand
+                </a>
+              </router-link>
+            </div>
+
+            <div class="sub-item">
+              <router-link to="/frontoffice-icons">
+                <a class="active">
+                  Application
+                </a>
+              </router-link>
+            </div>
           </div>
         </div>
 
@@ -91,14 +118,14 @@
           </label>
           <div class="sub-items">
             <div class="sub-item">
-              <router-link to="/buttons">
+              <router-link to="/avatar">
                 <a class="active">
                   Avatars
                 </a>
               </router-link>
             </div>
             <div class="sub-item">
-              <router-link to="/inputs">
+              <router-link to="/breadcrumbs">
                 <a class="active">
                   Breadcrumbs
                 </a>
@@ -197,7 +224,6 @@
             </div>
           </div>
         </div>
-
 
 
       </div>
