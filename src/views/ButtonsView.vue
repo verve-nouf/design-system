@@ -293,13 +293,22 @@ export default {
   margin: 75px 0;
 }
 
+.separator hr {
+  border: 0;
+  border-bottom: 1px solid #edebe9;
+}
+
 .hero-title-contentblock h1 {
   color: #000;
   font-family: "Tiempos Fine-bold", sans-serif;
-  font-size: 3rem;
+  font-size: 3.75rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 3.6rem */
+  line-height: 92px;
+}
+
+.separator hr {
+  max-width: 75%;
 }
 
 .hero-title-contentblock .mini-title {
@@ -313,12 +322,13 @@ export default {
 }
 
 .hero-title-contentblock .description {
-  color: rgba(0, 0, 0, 0.50);
+  color: black;
   font-family: Lato, sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 1.35rem */
+  line-height: 26px;
+  max-width: 75%;
 }
 
 .article-content .article-header h2 {
@@ -332,12 +342,12 @@ export default {
 }
 
 .article-paragraph p {
-  color: rgb(103, 94, 94);
+  color: black;
   font-family: Lato, sans-serif;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 1.2rem */
+  line-height: 24px;
   max-width: 75%;
 }
 
@@ -415,6 +425,14 @@ export default {
 }
 
 @media only screen and (max-width: 430px) {
+  .hero-title-contentblock .description {
+    max-width: 100%;
+  }
+
+  .separator hr {
+    max-width: 100%;
+  }
+
   .article-image img {
     width: 100%;
   }

@@ -9,10 +9,10 @@
               <p class="mini-title">Components</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Avatars</h1>
+              <h1>Cards</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">An avatar is a graphical or text representation that symbolizes an individual or a collective entity. It serves not only as a visual identifier but also provides supplementary details, including the person's status and ongoing activities.</p>
+              <p class="description">Card UI design pattern is that it allows you to create a responsive and modular layout that adapts to different screen sizes and devices.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -24,52 +24,16 @@
 
           <article class="article-content">
             <div class="article-header">
-              <h2>Types</h2>
-            </div>
-            <div class="article-subheader">
-              <h3>
-                Resident avatars
-              </h3>
+              <h2>Usage</h2>
             </div>
             <div class="article-paragraph">
               <p>
-                A circle avatar image is a common design element used to represent a user or entity within a digital interface. This circular image is often associated with profile pictures, user icons, or identifiers.
+                Cards are like mini-containers in a UI, presenting focused bits of information in a clear and organized way. They're great for everything from product listings to news articles, helping users scan information quickly and take action if needed.
               </p>
-            </div>
-            <div class="article-image">
-              <img src="/src/assets/avatar-residents-image.svg" alt="button-image">
-            </div>
-          </article>
-
-          <article class="article-content">
-            <div class="article-subheader">
-              <h3>
-                Staff avatars
-              </h3>
-            </div>
-            <div class="article-paragraph">
+              <br>
               <p>
-                Circle avatar initials are a design element commonly used when a user hasn't uploaded a custom profile picture or when a simplified representation is preferred. Instead of an image, the avatar consists of stylized initials representing the user's name.
+                Their design flexibility makes them adaptable to different layouts and devices, creating a positive user experience across platforms.
               </p>
-            </div>
-            <div class="article-image">
-              <img src="/src/assets/avatar-family-image.svg" alt="avatar-staff-image">
-            </div>
-          </article>
-
-          <article class="article-content">
-            <div class="article-subheader">
-              <h3>
-                Family avatars
-              </h3>
-            </div>
-            <div class="article-paragraph">
-              <p>
-                Circle avatar initials are a design element commonly used when a user hasn't uploaded a custom profile picture or when a simplified representation is preferred. Instead of an image, the avatar consists of stylized initials representing the user's name.
-              </p>
-            </div>
-            <div class="article-image">
-              <img src="/src/assets/avatar-family-image.svg" alt="avatar-family-image">
             </div>
           </article>
 
@@ -77,6 +41,29 @@
             <hr>
           </div>
 
+          <article class="article-content">
+            <div class="article-header">
+              <h2>Types</h2>
+            </div>
+            <div class="article-subheader">
+              <h3>
+                Profile card
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                The purpose of a profile card is to provide a concise and easily accessible summary of a person's key information, often in a professional or organizational context. Here are some specific purposes of a profile card.
+              </p>
+            </div>
+            <div class="article-image">
+              <img src="/src/assets/profile-card.svg" alt="profile-card-image">
+            </div>
+          </article>
+
+
+          <div class="separator">
+            <hr>
+          </div>
 
           <article class="article-content">
             <div class="article-header">
@@ -86,11 +73,12 @@
             </div>
             <div class="article-paragraph">
               <p>
-                Icons on small avatars (32 pixels) can be challenging for those with visibility impairments. Consider adding a text status or tooltip for clarity. Avatars are static by default, so if you add interactions, ensure you include states and keyboarding interactions for accessibility.
+                An accessible profile card provides a clear and concise summary of essential information about a person, such as their name, job title, and contact details, using readable fonts and high-contrast colors. It employs proper HTML structure with headings, paragraphs, and descriptive labels to ensure screen readers can interpret the content accurately.
+                <br><br>
+                All interactive elements are keyboard-navigable with clear focus indicators. Images include descriptive alt text, and the design avoids relying solely on color to convey information, ensuring usability for individuals with color blindness. The card is also responsive, adapting to various screen sizes and orientations. This approach ensures that all users, regardless of their abilities, can easily access and understand the information presented.
               </p>
             </div>
           </article>
-
         </div>
       </div>
     </div>
@@ -108,7 +96,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "OverviewView",
+  name: "CardsView",
   components: {SideBar, Footer}
 }
 </script>
@@ -137,11 +125,6 @@ export default {
   margin: 75px 0;
 }
 
-.separator hr {
-  border: 0;
-  border-bottom: 1px solid #edebe9;
-}
-
 .hero-title-contentblock h1 {
   color: #000;
   font-family: "Tiempos Fine-bold", sans-serif;
@@ -162,7 +145,7 @@ export default {
 }
 
 .hero-title-contentblock .description {
-  color: rgb(103, 94, 94);
+  color: rgba(0, 0, 0, 0.50);
   font-family: Lato, sans-serif;
   font-size: 1.125rem;
   font-style: normal;

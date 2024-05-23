@@ -29,8 +29,7 @@
         <section class="hero-content-block">
           <div class="content-button">
             <h3>Figma UI-kit</h3>
-            <p>Develop, construct and deliver seamless
-              interactions using Cubigo’s latest design system.</p>
+            <p>Get started quickly with our Figma UI-kit</p>
             <div class="tile">
               <a href="https://www.figma.com/file/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?type=design&node-id=142%3A3790&mode=design&t=14edcERkftiySLDD-1">
                 <img src="/src/assets/figma-block.svg" alt="figma-image-block">
@@ -40,13 +39,16 @@
 
           <div class="content-button">
             <h3>Guidelines</h3>
-            <p>Develop, construct and deliver seamless
-              interactions using Cubigo’s latest design system.</p>
+            <p>Using the Figma UI-kit effectively</p>
             <div class="tile">
-              <img src="/src/assets/guidelines-block.svg" alt="guidelines-image-block">
+              <router-link to="/guidelines">
+                <img src="/src/assets/guidelines-block.svg" alt="guidelines-image-block">
+              </router-link>
             </div>
           </div>
         </section>
+
+        <!-- de seperators -->
 
         <section class="component-section-block">
           <div class="title-section">
@@ -134,7 +136,7 @@
 
 #blue-part {
   color: #0092E1;
-  font-weight: 500 !important;
+  font-weight: 800 !important;
 }
 
 #develop-banner {
@@ -151,7 +153,7 @@
 
 .text-section #hoverOne, .text-section #hoverTwo, .text-section #hoverThree  {
   text-decoration: underline #0092E1;
-  text-underline-offset: 25px;
+  text-underline-offset: 15px;
   cursor: pointer;
 }
 
@@ -218,7 +220,7 @@
 
 .content-button h3 {
   color: #000;
-  font-family: "Tiempos Fine-bold", sans-serif;
+  font-family: "Tiempos Fine-medium", sans-serif;
   font-size: 1.8875rem;
   font-style: normal;
   font-weight: 700;
@@ -247,6 +249,7 @@
 .resource-item hr {
   margin-bottom: 20px;
   margin-top: 10px;
+
 }
 
 .content-button p {
@@ -261,7 +264,7 @@
 
 .title-section h3 {
   margin-bottom: 10vh;
-  font-weight: 300;
+  font-weight: 800 !important;
 }
 
 .text-section a {
@@ -295,7 +298,7 @@
 }*/
 
 .tile img {
-  width: 100%;
+  width: 90%;
 }
 
 .hero-items {
@@ -342,6 +345,12 @@
   margin-top: 45px;
   margin-bottom: 45px;
 }
+
+.page-seperator hr {
+  border: 0;
+  border-bottom: 1px solid #edebe9;
+}
+
 
 @media only screen and (max-width: 768px) {
 

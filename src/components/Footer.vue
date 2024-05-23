@@ -38,6 +38,8 @@ footer {
 .footer hr {
   display: flex;
   margin: 0 45px;
+  border: 0;
+  border-bottom: 1px solid #edebe9;
 }
 
 .footer-content {
@@ -46,7 +48,10 @@ footer {
   padding: 45px;
 }
 
-
+.logo-container img {
+  margin: 0 45px;
+  color: black;
+}
 
 .external-links {
   display: flex;

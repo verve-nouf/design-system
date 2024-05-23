@@ -8,6 +8,8 @@ import DesignView from "@/views/DesignView.vue";
 import BreadCrumbsView from "@/views/breadCrumbsView.vue";
 import iconsFrontOfficeView from "@/views/iconsFrontOfficeView.vue";
 import iconsBackOfficeView from "@/views/iconsBackOfficeView.vue";
+import cardsView from "@/views/CardsView.vue";
+import GuidelinesView from "@/views/GuidelinesView.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -56,7 +58,17 @@ const router = createRouter({
             path: '/backoffice-icons',
             name: 'backoffice-icons',
             component: iconsBackOfficeView
-        }
+        },
+        {
+            path: '/cards',
+            name: 'cards',
+            component: cardsView
+        },
+        {
+            path: '/guidelines',
+            name: 'guidelines',
+            component: GuidelinesView
+        },
     ]
 })
 

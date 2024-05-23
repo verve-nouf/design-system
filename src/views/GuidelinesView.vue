@@ -6,13 +6,13 @@
         <div class="content-hero">
           <div class="hero-title">
             <div class="hero-title-contentblock">
-              <p class="mini-title">Components</p>
+              <p class="mini-title">Overview</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Avatars</h1>
+              <h1>Guidelines</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">An avatar is a graphical or text representation that symbolizes an individual or a collective entity. It serves not only as a visual identifier but also provides supplementary details, including the person's status and ongoing activities.</p>
+              <p class="description">Create stunning, cohesive Cubigo experiences using the Cubigo Figma UI-Kit. Built in Figma, the Cubigo UI-Kit includes design assets that align perfectly with our code libraries, ensuring a seamless transition from design to development every time.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -24,72 +24,22 @@
 
           <article class="article-content">
             <div class="article-header">
-              <h2>Types</h2>
-            </div>
-            <div class="article-subheader">
-              <h3>
-                Resident avatars
-              </h3>
+              <h2>Designing</h2>
             </div>
             <div class="article-paragraph">
               <p>
-                A circle avatar image is a common design element used to represent a user or entity within a digital interface. This circular image is often associated with profile pictures, user icons, or identifiers.
-              </p>
+                Craft beautiful and unified Cubigo experiences with the Cubigo Figma UI-Kit. Designed in Figma, this UI kit offers design assets that directly correspond to our code libraries, guaranteeing a smooth and efficient handoff from design to development every time.              </p>
             </div>
-            <div class="article-image">
-              <img src="/src/assets/avatar-residents-image.svg" alt="button-image">
-            </div>
-          </article>
-
-          <article class="article-content">
-            <div class="article-subheader">
-              <h3>
-                Staff avatars
-              </h3>
-            </div>
-            <div class="article-paragraph">
-              <p>
-                Circle avatar initials are a design element commonly used when a user hasn't uploaded a custom profile picture or when a simplified representation is preferred. Instead of an image, the avatar consists of stylized initials representing the user's name.
-              </p>
-            </div>
-            <div class="article-image">
-              <img src="/src/assets/avatar-family-image.svg" alt="avatar-staff-image">
-            </div>
-          </article>
-
-          <article class="article-content">
-            <div class="article-subheader">
-              <h3>
-                Family avatars
-              </h3>
-            </div>
-            <div class="article-paragraph">
-              <p>
-                Circle avatar initials are a design element commonly used when a user hasn't uploaded a custom profile picture or when a simplified representation is preferred. Instead of an image, the avatar consists of stylized initials representing the user's name.
-              </p>
-            </div>
-            <div class="article-image">
-              <img src="/src/assets/avatar-family-image.svg" alt="avatar-family-image">
+            <div class="figma-button-link">
+              <a href="#">
+                <img src="/src/assets/figma-block-link.svg" alt="figma-button-link">
+              </a>
             </div>
           </article>
 
           <div class="separator">
             <hr>
           </div>
-
-
-          <article class="article-content">
-            <div class="article-header">
-              <h2>
-                Accesibility
-              </h2>
-            </div>
-            <div class="article-paragraph">
-              <p>
-                Icons on small avatars (32 pixels) can be challenging for those with visibility impairments. Consider adding a text status or tooltip for clarity. Avatars are static by default, so if you add interactions, ensure you include states and keyboarding interactions for accessibility.
-              </p>
-            </div>
-          </article>
 
         </div>
       </div>
@@ -108,7 +58,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "OverviewView",
+  name: "DesignView",
   components: {SideBar, Footer}
 }
 </script>
@@ -137,11 +87,6 @@ export default {
   margin: 75px 0;
 }
 
-.separator hr {
-  border: 0;
-  border-bottom: 1px solid #edebe9;
-}
-
 .hero-title-contentblock h1 {
   color: #000;
   font-family: "Tiempos Fine-bold", sans-serif;
@@ -162,7 +107,7 @@ export default {
 }
 
 .hero-title-contentblock .description {
-  color: rgb(103, 94, 94);
+  color: rgba(0, 0, 0, 0.50);
   font-family: Lato, sans-serif;
   font-size: 1.125rem;
   font-style: normal;
@@ -203,6 +148,15 @@ export default {
 .article-content .article-image {
   margin-top: 30px;
   margin-bottom: 120px;
+}
+
+.figma-button-link {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.figma-button-link img {
+  cursor: pointer;
 }
 
 @font-face {

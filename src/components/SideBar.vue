@@ -43,6 +43,13 @@
                 </a>
               </router-link>
             </div>
+            <div class="sub-item">
+              <router-link to="/guidelines">
+                <a class="active">
+                  Guidelines
+                </a>
+              </router-link>
+            </div>
           </div>
         </div>
 
@@ -139,7 +146,7 @@
               </router-link>
             </div>
             <div class="sub-item">
-              <router-link to="/inputs">
+              <router-link to="/cards">
                 <a class="active">
                   Cards
                 </a>
@@ -301,6 +308,11 @@ input {
 .sidebar-separator {
   margin-top: 30px;
   margin-bottom: 45px;
+}
+
+.sidebar-separator hr {
+  border: 0;
+  border-bottom: 1px solid #edebe9;
 }
 
 .sidebar-items .item {
