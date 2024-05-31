@@ -9,10 +9,10 @@
               <p class="mini-title">Components</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Breadcrumbs</h1>
+              <h1>Footer</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Clickable elements used to indicate navigation paths.</p>
+              <p class="description">Bottom section containing supplementary information or links.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,11 +28,11 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A breadcrumb is a user interface (UI) element that helps users navigate through a digital interface by showing their current location within the application's hierarchy. Breadcrumbs provide a clear and actionable way for users to understand their position and easily return to previous pages or sections.
+                A footer is a user interface (UI) element located at the bottom of a page, used to contain supplementary information or links within a digital interface. It provides users with additional resources and navigation options.
               </p>
               <br>
               <p>
-                They typically consist of a series of clickable links that represent the path taken to reach the current page, responding to user input, such as a mouse click or a tap on a touchscreen device.
+                They typically consist of links to important sections, contact information, legal disclaimers, and other relevant details.
               </p>
             </div>
           </article>
@@ -44,17 +44,17 @@
           <article class="article-content">
             <div class="article-subheader">
               <h3>
-                Breadcrumb
+                Footer
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Help users to quickly move back to higher levels of the hierarchy, with numbers.
+                The purpose of a profile card is to provide a concise and easily accessible summary of a person's key information, often in a professional or organizational context. Here are some specific purposes of a profile card.
               </p>
             </div>
             <div class="article-image">
-              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=315-2688&t=l00MTz1vGS7FsvNM-4">
-               <img src="/src/assets/breadcrumb-image.svg" alt="breadcrumb-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1110-1145&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/footer-image.svg" alt="profile-card-image">
               </a>
             </div>
           </article>
@@ -67,23 +67,19 @@
           <article class="article-content">
             <div class="article-header">
               <h2>
-                Best practices
+                Accesibility
               </h2>
             </div>
             <div class="article-paragraph">
               <p>
-                Use breadcrumbs to enhance navigation and provide users with a clear path back to previous sections. Place them at the top of the page, typically below the header, to ensure they are easily visible.
-
-                Ensure each breadcrumb link is clickable and accurately represents the corresponding section or page. Use concise and descriptive labels to avoid confusion and enhance user understanding.
-                <br><br>
-                For complex hierarchies, keep the breadcrumb trail simple by showing only the most relevant levels. Avoid overloading the breadcrumb trail with too many levels, as this can lead to visual clutter and reduce its effectiveness.
+                Ensure sufficient contrast between the text and background to make the footer content easily readable for users with visual impairments, adhering to WCAG guidelines for color contrast. Use legible font sizes and ensure text can be resized without breaking the layout, avoiding pixel units for text and instead using relative units like ems or rems.
+              </p>
+              <br><br>
+              <p>
+                All interactive elements are keyboard-navigable with clear focus indicators. Images include descriptive alt text, and the design avoids relying solely on color to convey information, ensuring usability for individuals with color blindness. The card is also responsive, adapting to various screen sizes and orientations. This approach ensures that all users, regardless of their abilities, can easily access and understand the information presented.
               </p>
             </div>
-            <div class="article-image">
-                <img src="/src/assets/breadcrumb-image-practices.svg" alt="breadcrumbs-bestpractices-image">
-            </div>
           </article>
-
         </div>
       </div>
     </div>
@@ -101,7 +97,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "breadCrumbsView",
+  name: "FooterView",
   components: {SideBar, Footer}
 }
 </script>

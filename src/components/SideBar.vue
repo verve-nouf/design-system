@@ -95,7 +95,7 @@
           </label>
           <div class="sub-items">
             <div class="sub-item">
-              <router-link to="/frontoffice-icons">
+              <router-link to="/brandtypo">
                 <a class="active">
                   Brand
                 </a>
@@ -103,7 +103,7 @@
             </div>
 
             <div class="sub-item">
-              <router-link to="/frontoffice-icons">
+              <router-link to="/apptypo">
                 <a class="active">
                   Application
                 </a>
@@ -153,42 +153,35 @@
               </router-link>
             </div>
             <div class="sub-item">
-              <router-link to="/inputs">
-                <a class="active">
-                  Company logos
-                </a>
-              </router-link>
-            </div>
-            <div class="sub-item">
-              <router-link to="/inputs">
+              <router-link to="/cubes">
                 <a class="active">
                   Cubes
                 </a>
               </router-link>
             </div>
             <div class="sub-item">
-              <router-link to="/inputs">
+              <router-link to="/dropdowns">
                 <a class="active">
                   Dropdowns
                 </a>
               </router-link>
             </div>
             <div class="sub-item">
-              <router-link to="/inputs">
+              <router-link to="/footer">
                 <a class="active">
                   Footer
                 </a>
               </router-link>
             </div>
             <div class="sub-item">
-              <router-link to="/inputs">
+              <router-link to="/form">
                 <a class="active">
                   Forms
                 </a>
               </router-link>
             </div>
             <div class="sub-item">
-              <router-link to="/inputs">
+              <router-link to="/grid">
                 <a class="active">
                   Grid
                 </a>
@@ -202,14 +195,14 @@
               </router-link>
             </div>
             <div class="sub-item">
-              <router-link to="/inputs">
+              <router-link to="/notifications">
                 <a class="active">
                   Notifications
                 </a>
               </router-link>
             </div>
             <div class="sub-item">
-              <router-link to="/inputs">
+              <router-link to="/options">
                 <a class="active">
                   Options
                 </a>
@@ -223,7 +216,7 @@
               </router-link>
             </div>
             <div class="sub-item">
-              <router-link to="/inputs">
+              <router-link to="/pills">
                 <a class="active">
                   Pills
                 </a>

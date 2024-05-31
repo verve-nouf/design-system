@@ -9,10 +9,10 @@
               <p class="mini-title">Components</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Breadcrumbs</h1>
+              <h1>Options</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Clickable elements used to indicate navigation paths.</p>
+              <p class="description">Selectable option allowing only one choice from a set or box allowing multiple choices from a set</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,12 +28,14 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A breadcrumb is a user interface (UI) element that helps users navigate through a digital interface by showing their current location within the application's hierarchy. Breadcrumbs provide a clear and actionable way for users to understand their position and easily return to previous pages or sections.
+                A radiobutton is a user interface (UI) element that allows users to select a single option from a set of predefined choices. Radiobuttons are commonly used in forms and settings where only one selection is permitted at a time.
+                They typically consist of a small circle that can be clicked or tapped, with only one circle in a group being selectable at any given time."
+
               </p>
               <br>
               <p>
-                They typically consist of a series of clickable links that represent the path taken to reach the current page, responding to user input, such as a mouse click or a tap on a touchscreen device.
-              </p>
+                A checkbox is a user interface (UI) element that allows users to select one or multiple options from a set. Checkboxes are commonly used in forms and settings where multiple selections are allowed.
+                They typically consist of a small square that can be checked or unchecked, indicating the selection status of the option."                </p>
             </div>
           </article>
 
@@ -42,19 +44,39 @@
           </div>
 
           <article class="article-content">
+            <div class="article-header">
+              <h2>Types</h2>
+            </div>
             <div class="article-subheader">
               <h3>
-                Breadcrumb
+                Radiobutton
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Help users to quickly move back to higher levels of the hierarchy, with numbers.
+                A radiobutton allows users to select exactly one option from a list of mutually exclusive choices. When a user selects one radiobutton, it deselects any previously selected radiobutton in the same group. Radiobuttons are commonly used when users need to make a single choice from a predefined set of options, such as selecting a gender or choosing a payment method.
               </p>
             </div>
             <div class="article-image">
-              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=315-2688&t=l00MTz1vGS7FsvNM-4">
-               <img src="/src/assets/breadcrumb-image.svg" alt="breadcrumb-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1128-6482&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/radio-button-image.svg" alt="profile-card-image">
+              </a>
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Checkbox
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                A checkbox allows users to select one or more options from a list of choices independently of each other. Each checkbox operates independently, and multiple checkboxes can be selected simultaneously. Checkboxes are typically used when users need to make multiple selections from a list of options, such as selecting multiple items from a shopping cart or choosing preferences in a settings menu.              </p>
+            </div>
+            <div class="article-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1128-6482&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/checkbox-image.svg" alt="profile-card-image">
               </a>
             </div>
           </article>
@@ -67,23 +89,17 @@
           <article class="article-content">
             <div class="article-header">
               <h2>
-                Best practices
+                Accesibility
               </h2>
             </div>
             <div class="article-paragraph">
               <p>
-                Use breadcrumbs to enhance navigation and provide users with a clear path back to previous sections. Place them at the top of the page, typically below the header, to ensure they are easily visible.
-
-                Ensure each breadcrumb link is clickable and accurately represents the corresponding section or page. Use concise and descriptive labels to avoid confusion and enhance user understanding.
+                Ensure clear labeling for radiobutton options. Utilize semantic HTML elements and ARIA attributes for screen reader compatibility. Enable keyboard navigation for easy selection. Maintain sufficient color contrast and visible focus indicators. Implement error handling for unselected radiobuttons.
                 <br><br>
-                For complex hierarchies, keep the breadcrumb trail simple by showing only the most relevant levels. Avoid overloading the breadcrumb trail with too many levels, as this can lead to visual clutter and reduce its effectiveness.
+                Provide descriptive labels for checkboxes. Utilize semantic HTML elements and ARIA attributes for screen reader compatibility. Enable keyboard navigation for easy selection. Maintain sufficient color contrast and visible focus indicators. Consider including a "Select All" option if applicable for enhanced usability.
               </p>
             </div>
-            <div class="article-image">
-                <img src="/src/assets/breadcrumb-image-practices.svg" alt="breadcrumbs-bestpractices-image">
-            </div>
           </article>
-
         </div>
       </div>
     </div>
@@ -101,7 +117,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "breadCrumbsView",
+  name: "OptionsView",
   components: {SideBar, Footer}
 }
 </script>
@@ -201,6 +217,10 @@ export default {
 .article-content .article-image {
   margin-top: 30px;
   margin-bottom: 120px;
+}
+
+.article-content .article-image img {
+  width: 800px;
 }
 
 @font-face {

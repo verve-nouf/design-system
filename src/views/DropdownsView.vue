@@ -9,10 +9,10 @@
               <p class="mini-title">Components</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Breadcrumbs</h1>
+              <h1>Dropdowns</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Clickable elements used to indicate navigation paths.</p>
+              <p class="description">Expandable list used to select options.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,11 +28,11 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A breadcrumb is a user interface (UI) element that helps users navigate through a digital interface by showing their current location within the application's hierarchy. Breadcrumbs provide a clear and actionable way for users to understand their position and easily return to previous pages or sections.
+                A dropdown is a user interface (UI) element that allows users to select an option from a list of choices within a digital interface. Dropdowns are useful for conserving space while providing multiple selection options.
               </p>
               <br>
               <p>
-                They typically consist of a series of clickable links that represent the path taken to reach the current page, responding to user input, such as a mouse click or a tap on a touchscreen device.
+                They typically consist of a collapsed list that expands when clicked or tapped, displaying the available options for selection.
               </p>
             </div>
           </article>
@@ -42,19 +42,95 @@
           </div>
 
           <article class="article-content">
+            <div class="article-header">
+              <h2>Types</h2>
+            </div>
             <div class="article-subheader">
               <h3>
-                Breadcrumb
+                Dropdown
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Help users to quickly move back to higher levels of the hierarchy, with numbers.
+                Buttons with ready to use Normal, Hover, Clicked, Loading and Disabled states. All for you to easily
+                understand the magic of “States” layers within the symbols.
               </p>
             </div>
             <div class="article-image">
-              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=315-2688&t=l00MTz1vGS7FsvNM-4">
-               <img src="/src/assets/breadcrumb-image.svg" alt="breadcrumb-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=199-4541&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/dropdown-image.svg" alt="button-image">
+              </a>
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Dropdown subtitles
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                A dropdown with a subheader includes an additional descriptive label or title above the list of choices. This helps categorize or provide context for the options, making it easier for users to navigate and select the appropriate item.
+              </p>
+            </div>
+            <div class="article-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=199-4541&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/dropdown-subtitles-image.svg" alt="button-image">
+              </a>
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Split dropdown
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                A split dropdown combines a primary action button with a dropdown menu. The primary action can be triggered directly, while additional related options can be accessed through the dropdown, providing a flexible and efficient user experience.
+              </p>
+            </div>
+            <div class="article-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1108-2867&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/split-dropdown-image.svg" alt="button-image">
+              </a>
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Date dropdown
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                A date dropdown is a user interface (UI) element that allows users to select a date from a list or calendar view. It simplifies date entry by providing an intuitive and organized way to choose a specific date, reducing the chance of input errors.
+              </p>
+            </div>
+            <div class="article-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1109-3295&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/date-dropdown-image.svg" alt="button-image">
+              </a>
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Profile dropdown
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                A dropdown with a searchbar allows users to filter and search within the list of options. This is especially useful for long lists, enabling users to quickly find and select the desired item without scrolling through all the options.
+              </p>
+            </div>
+            <div class="article-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1110-628&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/profile-dropdown-image.svg" alt="button-image">
               </a>
             </div>
           </article>
@@ -72,15 +148,13 @@
             </div>
             <div class="article-paragraph">
               <p>
-                Use breadcrumbs to enhance navigation and provide users with a clear path back to previous sections. Place them at the top of the page, typically below the header, to ensure they are easily visible.
-
-                Ensure each breadcrumb link is clickable and accurately represents the corresponding section or page. Use concise and descriptive labels to avoid confusion and enhance user understanding.
+                Opt for a single primary dropdown within a layout to emphasize the most important selection. In scenarios where multiple dropdowns share equal importance, ensure a uniform appearance by employing neutral backgrounds for all dropdowns.
                 <br><br>
-                For complex hierarchies, keep the breadcrumb trail simple by showing only the most relevant levels. Avoid overloading the breadcrumb trail with too many levels, as this can lead to visual clutter and reduce its effectiveness.
+                When dealing with numerous minor selections, maintain a clean and uncluttered layout by applying outline, subtle, or transparent styles to all dropdowns. This helps prevent visual overwhelm and ensures a more organized and user-friendly interface.
               </p>
             </div>
             <div class="article-image">
-                <img src="/src/assets/breadcrumb-image-practices.svg" alt="breadcrumbs-bestpractices-image">
+              <img src="/src/assets/best-practice-dropdown.svg" alt="button-image">
             </div>
           </article>
 
@@ -101,7 +175,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "breadCrumbsView",
+  name: "DropdownsView",
   components: {SideBar, Footer}
 }
 </script>
@@ -201,6 +275,10 @@ export default {
 .article-content .article-image {
   margin-top: 30px;
   margin-bottom: 120px;
+}
+
+.article-image img {
+  width: 762px;
 }
 
 @font-face {

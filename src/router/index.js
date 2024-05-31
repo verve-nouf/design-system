@@ -10,6 +10,17 @@ import iconsFrontOfficeView from "@/views/iconsFrontOfficeView.vue";
 import iconsBackOfficeView from "@/views/iconsBackOfficeView.vue";
 import cardsView from "@/views/CardsView.vue";
 import GuidelinesView from "@/views/GuidelinesView.vue";
+import CubesView from "@/views/CubesView.vue";
+import DropdownsView from "@/views/DropdownsView.vue";
+import Footer from "@/components/Footer.vue";
+import FooterView from "@/views/FooterView.vue";
+import FormView from "@/views/FormView.vue";
+import GridView from "@/views/GridView.vue";
+import NotificationsView from "@/views/NotificationsView.vue";
+import OptionsView from "@/views/OptionsView.vue";
+import PillsView from "@/views/PillsView.vue";
+import BrandTypographyView from "@/views/brandTypographyView.vue";
+import AppTypographyView from "@/views/appTypographyView.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -69,6 +80,58 @@ const router = createRouter({
             name: 'guidelines',
             component: GuidelinesView
         },
+        {
+            path: '/cubes',
+            name: 'cubes',
+            component: CubesView
+        },
+        {
+            path: '/dropdowns',
+            name: 'dropdowns',
+            component: DropdownsView
+        },
+        {
+            path: '/footer',
+            name: 'footer',
+            component: FooterView
+        },
+        {
+            path: '/form',
+            name: 'form',
+            component: FormView
+        },
+        {
+            path: '/grid',
+            name: 'grid',
+            component: GridView
+        },
+        {
+            path: '/notifications',
+            name: 'notifications',
+            component: NotificationsView
+        },
+        {
+            path: '/options',
+            name: 'options',
+            component: OptionsView
+        },
+        {
+            path: '/pills',
+            name: 'pills',
+            component: PillsView
+        },
+        {
+            path: '/brandtypo',
+            name: 'brandtypo',
+            component: BrandTypographyView
+        },
+        {
+            path: '/apptypo',
+            name: 'apptypo',
+            component: AppTypographyView
+        },
+
+
     ]
 })
 

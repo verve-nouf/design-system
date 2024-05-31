@@ -9,10 +9,10 @@
               <p class="mini-title">Components</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Breadcrumbs</h1>
+              <h1>Cubes</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Clickable elements used to indicate navigation paths.</p>
+              <p class="description">Large block element showcasing a specific service or feature.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,11 +28,11 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A breadcrumb is a user interface (UI) element that helps users navigate through a digital interface by showing their current location within the application's hierarchy. Breadcrumbs provide a clear and actionable way for users to understand their position and easily return to previous pages or sections.
+                Cubes are large user interface (UI) elements designed to highlight a specific service or feature within a digital interface. They are often used to draw attention to key offerings or functions.
               </p>
               <br>
               <p>
-                They typically consist of a series of clickable links that represent the path taken to reach the current page, responding to user input, such as a mouse click or a tap on a touchscreen device.
+                They typically consist of a prominent, clickable area that may include text, icons, or images to provide more information about the service or feature.
               </p>
             </div>
           </article>
@@ -44,21 +44,20 @@
           <article class="article-content">
             <div class="article-subheader">
               <h3>
-                Breadcrumb
+                Cubes
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Help users to quickly move back to higher levels of the hierarchy, with numbers.
+              Cubes are designed with an image and text to represent a service, making it easy to understand the functionality of "State" layers within the symbols.
               </p>
             </div>
             <div class="article-image">
-              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=315-2688&t=l00MTz1vGS7FsvNM-4">
-               <img src="/src/assets/breadcrumb-image.svg" alt="breadcrumb-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1106-1988&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/cube-card-image.png" alt="button-image">
               </a>
             </div>
           </article>
-
 
           <div class="separator">
             <hr>
@@ -72,17 +71,16 @@
             </div>
             <div class="article-paragraph">
               <p>
-                Use breadcrumbs to enhance navigation and provide users with a clear path back to previous sections. Place them at the top of the page, typically below the header, to ensure they are easily visible.
-
-                Ensure each breadcrumb link is clickable and accurately represents the corresponding section or page. Use concise and descriptive labels to avoid confusion and enhance user understanding.
+                Use cubes to prominently feature specific services or key offerings within your layout. Place them in strategic locations to draw user attention to important content or actions.
                 <br><br>
-                For complex hierarchies, keep the breadcrumb trail simple by showing only the most relevant levels. Avoid overloading the breadcrumb trail with too many levels, as this can lead to visual clutter and reduce its effectiveness.
+                Ensure each cube is clearly labeled and provides a concise, informative description of the service or feature it highlights. Use visually appealing designs, such as engaging images or icons, to enhance the cube's attractiveness and relevance.
               </p>
             </div>
             <div class="article-image">
-                <img src="/src/assets/breadcrumb-image-practices.svg" alt="breadcrumbs-bestpractices-image">
+              <img src="/src/assets/best-practices-cubes.svg" alt="button-image">
             </div>
           </article>
+
 
         </div>
       </div>
@@ -101,7 +99,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "breadCrumbsView",
+  name: "CubesView",
   components: {SideBar, Footer}
 }
 </script>

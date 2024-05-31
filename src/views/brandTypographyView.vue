@@ -6,13 +6,13 @@
         <div class="content-hero">
           <div class="hero-title">
             <div class="hero-title-contentblock">
-              <p class="mini-title">Components</p>
+              <p class="mini-title">Fonts</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Breadcrumbs</h1>
+              <h1>Brand typography</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Clickable elements used to indicate navigation paths.</p>
+              <p class="description">Fonts that are used on non-application products.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,12 +28,10 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A breadcrumb is a user interface (UI) element that helps users navigate through a digital interface by showing their current location within the application's hierarchy. Breadcrumbs provide a clear and actionable way for users to understand their position and easily return to previous pages or sections.
-              </p>
+                The primary font we use is Tiempos Fine. This font is applied to large titles and text that should stand out more, such as call-to-actions or major category titles. Its slightly playful character makes it accessible, friendly, and thus lowers barriers.              </p>
               <br>
               <p>
-                They typically consist of a series of clickable links that represent the path taken to reach the current page, responding to user input, such as a mouse click or a tap on a touchscreen device.
-              </p>
+                As a secondary font, for descriptions and body text, or to create a clear distinction, we use Lato. When Tiempos Fine is not available, Playfair can be used as an alternative (e.g., for digital Google applications).              </p>
             </div>
           </article>
 
@@ -41,21 +39,41 @@
             <hr>
           </div>
 
+
           <article class="article-content">
+            <div class="article-header">
+              <h2>Fonts</h2>
+            </div>
             <div class="article-subheader">
               <h3>
-                Breadcrumb
+                Tiempos Fine
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Help users to quickly move back to higher levels of the hierarchy, with numbers.
+                Tiempos Fine is an optical size from the popular Tiempos family by Klim Type Foundry. It was created for National Geographic Magazine and designed by Noe Blanco. The design is based on Tiempos Headline but features even higher contrast and sharper details. It is available in six weights with matching italics.
               </p>
             </div>
             <div class="article-image">
-              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=315-2688&t=l00MTz1vGS7FsvNM-4">
-               <img src="/src/assets/breadcrumb-image.svg" alt="breadcrumb-image">
-              </a>
+                <img src="/src/assets/tiempos-fine-image.svg" alt="button-image">
+            </div>
+          </article>
+
+
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Lato
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                Lato is a sans-serif typeface designed by Łukasz Dziedzic. It was released in 2015. The name "Lato" is Polish for "summer.
+              </p>
+            </div>
+            <div class="article-image">
+              <img src="/src/assets/lato-image.svg" alt="avatar-staff-image">
             </div>
           </article>
 
@@ -64,23 +82,17 @@
             <hr>
           </div>
 
+
           <article class="article-content">
             <div class="article-header">
               <h2>
-                Best practices
+                Resource
               </h2>
             </div>
             <div class="article-paragraph">
               <p>
-                Use breadcrumbs to enhance navigation and provide users with a clear path back to previous sections. Place them at the top of the page, typically below the header, to ensure they are easily visible.
-
-                Ensure each breadcrumb link is clickable and accurately represents the corresponding section or page. Use concise and descriptive labels to avoid confusion and enhance user understanding.
-                <br><br>
-                For complex hierarchies, keep the breadcrumb trail simple by showing only the most relevant levels. Avoid overloading the breadcrumb trail with too many levels, as this can lead to visual clutter and reduce its effectiveness.
+                Icons on small avatars (32 pixels) can be challenging for those with visibility impairments. Consider adding a text status or tooltip for clarity. Avatars are static by default, so if you add interactions, ensure you include states and keyboarding interactions for accessibility.
               </p>
-            </div>
-            <div class="article-image">
-                <img src="/src/assets/breadcrumb-image-practices.svg" alt="breadcrumbs-bestpractices-image">
             </div>
           </article>
 
@@ -101,7 +113,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "breadCrumbsView",
+  name: "brandTypographyView",
   components: {SideBar, Footer}
 }
 </script>

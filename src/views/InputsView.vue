@@ -12,7 +12,7 @@
               <h1>Inputs</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Clickable elements used to perform actions.</p>
+              <p class="description">Fields for entering or modifying data.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,11 +28,11 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A button is a user interface (UI) element that users can interact with to trigger an action or perform a specific function within a digital interface. Buttons are a fundamental part of web and software design, providing a clear and actionable way for users to engage with an application.
+                Inputs are user interface (UI) elements that allow users to enter or modify data within a digital interface. Inputs are essential for forms, searches, and other data entry tasks.
               </p>
               <br>
               <p>
-                They typically consist of a clickable area that responds to user input, such as a mouse click or a tap on a touchscreen device.
+                They typically consist of fields where users can type text, select values, or upload files, responding to various types of user input.
               </p>
             </div>
           </article>
@@ -52,41 +52,49 @@
             </div>
             <div class="article-paragraph">
               <p>
-                Buttons with ready to use Normal, Hover, Clicked, Loading and Disabled states. All for you to easily understand the magic of “States” layers within the symbols.
+                The purpose of an input field is to provide users with a space to enter or input data. Input fields are versatile elements commonly used in forms, search bars, and other interfaces where user interaction is required. They allow users to type text, select options from a dropdown menu, or input numeric values, depending on the type of input field. Input fields play a fundamental role in enabling users to provide information or perform actions within an application or website.
               </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/Group 610.svg" alt="button-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=142-3548&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/Light%20themeinput-two-image.svg" alt="button-image">
+              </a>
             </div>
           </article>
 
           <article class="article-content">
             <div class="article-subheader">
               <h3>
-                Label inputs
+                Textarea
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Buttons with ready to use Normal, Hover, Clicked, Loading and Disabled states. All for you to easily understand the magic of “States” layers within the symbols.              </p>
+                A textarea, on the other hand, serves a similar purpose to an input field but is specifically designed for capturing multi-line text input. Textareas are commonly used for tasks such as composing messages, writing comments, or entering longer passages of text where a single-line input field would be insufficient.
+              </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/Group 618.svg" alt="button-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=142-3548&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/Light%20themeinput-one-image-1.svg" alt="button-image">
+              </a>
             </div>
           </article>
 
           <article class="article-content">
             <div class="article-subheader">
               <h3>
-                File input
+                Datepicker
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Buttons with ready to use Normal, Hover, Clicked, Loading and Disabled states. All for you to easily understand the magic of “States” layers within the symbols.              </p>
+                A datepicker input is a specialized input field designed specifically for selecting dates from a calendar interface. Datepicker inputs are commonly used in forms and date-related tasks where users need to input or select specific dates, such as booking appointments, scheduling events, or setting deadlines.
+              </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/Group 620.svg" alt="button-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1127-6103&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/Light%20themeinput-two-image-2.svg" alt="button-image">
+              </a>
             </div>
           </article>
         </div>
@@ -135,13 +143,22 @@ export default {
   margin: 75px 0;
 }
 
+.separator hr {
+  border: 0;
+  border-bottom: 1px solid #edebe9;
+}
+
 .hero-title-contentblock h1 {
   color: #000;
-  font-family: "Tiempos Fine", sans-serif;
-  font-size: 3rem;
+  font-family: "Tiempos Fine-bold", sans-serif;
+  font-size: 3.75rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 3.6rem */
+  line-height: 92px;
+}
+
+.separator hr {
+  max-width: 75%;
 }
 
 .hero-title-contentblock .mini-title {
@@ -155,17 +172,18 @@ export default {
 }
 
 .hero-title-contentblock .description {
-  color: rgba(0, 0, 0, 0.50);
+  color: black;
   font-family: Lato, sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 1.35rem */
+  line-height: 26px;
+  max-width: 75%;
 }
 
 .article-content .article-header h2 {
   color: #000;
-  font-family: "Tiempos Fine", sans-serif;
+  font-family: "Tiempos Fine-bold", sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 500;
@@ -174,18 +192,18 @@ export default {
 }
 
 .article-paragraph p {
-  color: rgba(0, 0, 0, 0.50);
+  color: black;
   font-family: Lato, sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 1.2rem */
+  line-height: 24px;
   max-width: 75%;
 }
 
-.article-subheader h3  {
+.article-subheader h3 {
   color: #000;
-  font-family: "Tiempos Fine", sans-serif;
+  font-family: "Tiempos Fine-medium", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
@@ -198,42 +216,82 @@ export default {
   margin-bottom: 120px;
 }
 
-@media only screen and (min-width: 2000px) {
-  .hero-title-contentblock h1 {
-    font-size: 5rem;
-  }
-  .hero-title .hero-title-contentblock .mini-title {
-  font-size: 2.25rem;
-  }
+@font-face {
+  font-family: 'Tiempos Fine-regular';
+  src: url('/src/assets/WOFF2/tiempos-fine-regular.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
 
-  .hero-title-contentblock .description {
-    font-size: 2.25rem;
-  }
+@font-face {
+  font-family: 'Tiempos Fine-bold';
+  src: url('/src/assets/WOFF2/tiempos-fine-bold.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
 
-  .article-content .article-header h2 {
-    font-size: 3rem;
-  }
+@font-face {
+  font-family: 'Tiempos Fine-light';
+  src: url('/src/assets/WOFF2/tiempos-fine-light.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
 
-  .article-paragraph p {
-    font-size: 1.5rem;
-  }
+@font-face {
+  font-family: 'Tiempos Fine-medium';
+  src: url('/src/assets/WOFF2/tiempos-fine-medium.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
 
-  .article-subheader h3 {
-    font-size: 2rem;
-  }
+@font-face {
+  font-family: 'Tiempos Fine-semibold';
+  src: url('/src/assets/WOFF2/tiempos-fine-semibold.woff2') format('woff2'),
+  url('/src/assets/WOFF2/') format('woff');
+}
 
-  .article-image img {
-    width: 75%;
-  }
+.instruction {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+#anatomy {
+  margin-bottom: 50px;
+}
+
+.pointer-container {
+  margin-right: 25px;
+}
+
+.instruction-content h4 {
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.instruction-content p {
+  font-family: Lato, sans-serif;
+  color: #808080;
+}
+
+#special-paragraph {
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 430px) {
+  .hero-title-contentblock .description {
+    max-width: 100%;
+  }
+
+  .separator hr {
+    max-width: 100%;
+  }
+
   .article-image img {
     width: 100%;
   }
 
   .content-hero {
     margin-left: 0;
+    padding: 10vh 20px 0 20px;
+
+
   }
 
   .article-paragraph p {

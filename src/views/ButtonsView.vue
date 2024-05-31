@@ -60,7 +60,9 @@
               </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/standard-button-image.svg" alt="button-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=41-75&t=l00MTz1vGS7FsvNM-4">
+                <img src="/src/assets/standard-button-image.svg" alt="button-image">
+              </a>
             </div>
           </article>
 
@@ -76,7 +78,9 @@
                 understand the magic of “States” layers within the symbols. </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/navbar-button-image.svg" alt="button-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=47-1576&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/navbar-button-image.svg" alt="button-image">
+              </a>
             </div>
           </article>
 
@@ -92,7 +96,9 @@
                 understand the magic of “States” layers within the symbols. </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/rounded-button-image.svg" alt="button-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=130-5247&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/rounded-button-image.svg" alt="button-image">
+              </a>
             </div>
           </article>
 
@@ -108,7 +114,9 @@
                 understand the magic of “States” layers within the symbols. </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/group-button-image.svg" alt="button-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=131-5338&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/group-button-image.svg" alt="button-image">
+              </a>
             </div>
           </article>
 

@@ -6,13 +6,13 @@
         <div class="content-hero">
           <div class="hero-title">
             <div class="hero-title-contentblock">
-              <p class="mini-title">Components</p>
+              <p class="mini-title">Fonts</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Breadcrumbs</h1>
+              <h1>Application typography</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Clickable elements used to indicate navigation paths.</p>
+              <p class="description">Fonts that are used on application products.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,12 +28,7 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A breadcrumb is a user interface (UI) element that helps users navigate through a digital interface by showing their current location within the application's hierarchy. Breadcrumbs provide a clear and actionable way for users to understand their position and easily return to previous pages or sections.
-              </p>
-              <br>
-              <p>
-                They typically consist of a series of clickable links that represent the path taken to reach the current page, responding to user input, such as a mouse click or a tap on a touchscreen device.
-              </p>
+                The primary font we use is Source Sans Pro. This font is applied to large titles and text that should stand out more, such as call-to-actions or major category titles. Its slightly playful character makes it accessible, friendly, and thus lowers barriers.              </p>
             </div>
           </article>
 
@@ -41,21 +36,22 @@
             <hr>
           </div>
 
+
           <article class="article-content">
+            <div class="article-header">
+              <h2>Fonts</h2>
+            </div>
             <div class="article-subheader">
               <h3>
-                Breadcrumb
+                Source Sans Pro
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Help users to quickly move back to higher levels of the hierarchy, with numbers.
-              </p>
+                Source Sans Pro is also well-regarded for its clean, modern aesthetic, which can enhance the visual appeal of your application. Its neutral and professional look makes it suitable for a wide range of applications, whether you're aiming for a contemporary or a more traditional design.              </p>
             </div>
             <div class="article-image">
-              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=315-2688&t=l00MTz1vGS7FsvNM-4">
-               <img src="/src/assets/breadcrumb-image.svg" alt="breadcrumb-image">
-              </a>
+              <img src="/src/assets/source-sans-pro-image.svg" alt="button-image">
             </div>
           </article>
 
@@ -64,23 +60,17 @@
             <hr>
           </div>
 
+
           <article class="article-content">
             <div class="article-header">
               <h2>
-                Best practices
+                Resource
               </h2>
             </div>
             <div class="article-paragraph">
               <p>
-                Use breadcrumbs to enhance navigation and provide users with a clear path back to previous sections. Place them at the top of the page, typically below the header, to ensure they are easily visible.
-
-                Ensure each breadcrumb link is clickable and accurately represents the corresponding section or page. Use concise and descriptive labels to avoid confusion and enhance user understanding.
-                <br><br>
-                For complex hierarchies, keep the breadcrumb trail simple by showing only the most relevant levels. Avoid overloading the breadcrumb trail with too many levels, as this can lead to visual clutter and reduce its effectiveness.
+                Icons on small avatars (32 pixels) can be challenging for those with visibility impairments. Consider adding a text status or tooltip for clarity. Avatars are static by default, so if you add interactions, ensure you include states and keyboarding interactions for accessibility.
               </p>
-            </div>
-            <div class="article-image">
-                <img src="/src/assets/breadcrumb-image-practices.svg" alt="breadcrumbs-bestpractices-image">
             </div>
           </article>
 
@@ -101,7 +91,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "breadCrumbsView",
+  name: "appTypographyView",
   components: {SideBar, Footer}
 }
 </script>

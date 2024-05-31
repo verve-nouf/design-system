@@ -12,7 +12,9 @@
               <h1>Guidelines</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Create stunning, cohesive Cubigo experiences using the Cubigo Figma UI-Kit. Built in Figma, the Cubigo UI-Kit includes design assets that align perfectly with our code libraries, ensuring a seamless transition from design to development every time.</p>
+              <p class="description">Create stunning, cohesive Cubigo experiences using the Cubigo Figma UI-Kit. Built
+                in Figma, the Cubigo UI-Kit includes design assets that align perfectly with our code libraries,
+                ensuring a seamless transition from design to development every time.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -24,22 +26,38 @@
 
           <article class="article-content">
             <div class="article-header">
-              <h2>Designing</h2>
+              <h2>Meaningful text</h2>
             </div>
             <div class="article-paragraph">
               <p>
-                Craft beautiful and unified Cubigo experiences with the Cubigo Figma UI-Kit. Designed in Figma, this UI kit offers design assets that directly correspond to our code libraries, guaranteeing a smooth and efficient handoff from design to development every time.              </p>
-            </div>
-            <div class="figma-button-link">
-              <a href="#">
-                <img src="/src/assets/figma-block-link.svg" alt="figma-button-link">
-              </a>
+                Craft an engaging user experience by employing clear and straightforward language in your interface
+                design. Strive for brevity, consistency, and descriptive clarity. Each sentence should convey unique and
+                valuable information. Refer to content design guidelines and component usage guidance for comprehensive
+                insights.
+
+                <br><br>
+                Avoid complex or overly technical language to facilitate easy information skimming, benefiting users who
+                are not native English speakers.
+              </p>
             </div>
           </article>
 
           <div class="separator">
             <hr>
           </div>
+
+          <article class="article-content">
+            <div class="article-header">
+              <h2>Structure and hierarchy</h2>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                Establishing a coherent structure and hierarchy enhances the intuitiveness and fluidity of user navigation. Arrange information logically and predictably to facilitate understanding of relationships and connections. Employ tools such as typography, color, dividers, and spacing to delineate groupings and signify importance levels within the interface.
+                <br><br>
+                Utilize section headings with prominent or bold text to aid visual users in swiftly scanning and comprehending information, streamlining navigation. Employ heading elements in a logical sequence to enhance navigation efficiency for all users.
+              </p>
+            </div>
+          </article>
 
         </div>
       </div>
@@ -58,7 +76,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "DesignView",
+  name: "GuidelinesView",
   components: {SideBar, Footer}
 }
 </script>
@@ -87,13 +105,22 @@ export default {
   margin: 75px 0;
 }
 
+.separator hr {
+  border: 0;
+  border-bottom: 1px solid #edebe9;
+}
+
 .hero-title-contentblock h1 {
   color: #000;
   font-family: "Tiempos Fine-bold", sans-serif;
-  font-size: 3rem;
+  font-size: 3.75rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 3.6rem */
+  line-height: 92px;
+}
+
+.separator hr {
+  max-width: 75%;
 }
 
 .hero-title-contentblock .mini-title {
@@ -107,12 +134,13 @@ export default {
 }
 
 .hero-title-contentblock .description {
-  color: rgba(0, 0, 0, 0.50);
+  color: black;
   font-family: Lato, sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 1.35rem */
+  line-height: 26px;
+  max-width: 75%;
 }
 
 .article-content .article-header h2 {
@@ -126,13 +154,14 @@ export default {
 }
 
 .article-paragraph p {
-  color: rgb(103, 94, 94);
+  color: black;
   font-family: Lato, sans-serif;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 1.2rem */
+  line-height: 24px;
   max-width: 75%;
+  margin-bottom: 10vh;
 }
 
 .article-subheader h3 {
@@ -148,15 +177,6 @@ export default {
 .article-content .article-image {
   margin-top: 30px;
   margin-bottom: 120px;
-}
-
-.figma-button-link {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-.figma-button-link img {
-  cursor: pointer;
 }
 
 @font-face {

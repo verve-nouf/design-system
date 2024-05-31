@@ -9,10 +9,10 @@
               <p class="mini-title">Components</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Breadcrumbs</h1>
+              <h1>Pills</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Clickable elements used to indicate navigation paths.</p>
+              <p class="description">Compact, rounded labels for categorizing or filtering content.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,11 +28,11 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A breadcrumb is a user interface (UI) element that helps users navigate through a digital interface by showing their current location within the application's hierarchy. Breadcrumbs provide a clear and actionable way for users to understand their position and easily return to previous pages or sections.
+                Pills are compact user interface (UI) elements used to categorize or filter content within a digital interface. They are often used in navigation, filtering options, or to display tags.
               </p>
               <br>
               <p>
-                They typically consist of a series of clickable links that represent the path taken to reach the current page, responding to user input, such as a mouse click or a tap on a touchscreen device.
+                They typically consist of small, rounded labels that can be clicked or tapped to activate a specific function or category.
               </p>
             </div>
           </article>
@@ -42,19 +42,51 @@
           </div>
 
           <article class="article-content">
+            <div class="article-header">
+              <h2>Types</h2>
+            </div>
             <div class="article-subheader">
               <h3>
-                Breadcrumb
+                Pills
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Help users to quickly move back to higher levels of the hierarchy, with numbers.
-              </p>
+                The purpose of a "pill" is to provide a compact and visually appealing way to display and interact with categorical or filter options within a user interface. Typically, a pill appears as a small, rounded rectangular element containing text or an icon representing a category or filter criterion. Users can click or tap on the pill to select or deselect the corresponding option.              </p>
             </div>
             <div class="article-image">
-              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=315-2688&t=l00MTz1vGS7FsvNM-4">
-               <img src="/src/assets/breadcrumb-image.svg" alt="breadcrumb-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=91-3006&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/pills-image.svg" alt="profile-card-image">
+              </a>
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Pills dropdown
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                On the other hand, the purpose of a "pill" with a dropdown is to extend the functionality of a standard pill by allowing users to access additional options or subcategories related to the selected pill. When users interact with the pill, a dropdown menu appears, presenting additional choices or actions associated with the selected category or filter. This provides users with a more comprehensive and flexible way to navigate and filter content within the interface, enhancing usability and user experience.              </p>
+            </div>
+            <div class="article-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=91-3006&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/pills-dropdown-image.svg" alt="profile-card-image">
+              </a>
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Pills dropdown single value
+              </h3>
+            </div>
+            <div class="article-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=91-3006&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/pills-dropdown-single-image.svg" alt="profile-card-image">
               </a>
             </div>
           </article>
@@ -63,26 +95,6 @@
           <div class="separator">
             <hr>
           </div>
-
-          <article class="article-content">
-            <div class="article-header">
-              <h2>
-                Best practices
-              </h2>
-            </div>
-            <div class="article-paragraph">
-              <p>
-                Use breadcrumbs to enhance navigation and provide users with a clear path back to previous sections. Place them at the top of the page, typically below the header, to ensure they are easily visible.
-
-                Ensure each breadcrumb link is clickable and accurately represents the corresponding section or page. Use concise and descriptive labels to avoid confusion and enhance user understanding.
-                <br><br>
-                For complex hierarchies, keep the breadcrumb trail simple by showing only the most relevant levels. Avoid overloading the breadcrumb trail with too many levels, as this can lead to visual clutter and reduce its effectiveness.
-              </p>
-            </div>
-            <div class="article-image">
-                <img src="/src/assets/breadcrumb-image-practices.svg" alt="breadcrumbs-bestpractices-image">
-            </div>
-          </article>
 
         </div>
       </div>
@@ -101,7 +113,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "breadCrumbsView",
+  name: "PillsView",
   components: {SideBar, Footer}
 }
 </script>
@@ -201,6 +213,10 @@ export default {
 .article-content .article-image {
   margin-top: 30px;
   margin-bottom: 120px;
+}
+
+.article-content .article-image img {
+  width: 800px;
 }
 
 @font-face {

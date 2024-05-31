@@ -33,11 +33,13 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A circle avatar image is a common design element used to represent a user or entity within a digital interface. This circular image is often associated with profile pictures, user icons, or identifiers.
+                A circle resident avatar image is a common design element used to represent a resident or entity within a digital interface. This circular image is often associated with profile pictures, user icons, or identifiers.
               </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/avatar-residents-image.svg" alt="button-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1103-1378&t=l00MTz1vGS7FsvNM-4">
+                <img src="/src/assets/avatar-residents-image.svg" alt="button-image">
+              </a>
             </div>
           </article>
 
@@ -49,11 +51,13 @@
             </div>
             <div class="article-paragraph">
               <p>
-                Circle avatar initials are a design element commonly used when a user hasn't uploaded a custom profile picture or when a simplified representation is preferred. Instead of an image, the avatar consists of stylized initials representing the user's name.
+                A circle resident avatar image is a common design element used to represent a staff member or entity within a digital interface. This circular image is often associated with profile pictures, user icons, or identifiers.
               </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/avatar-family-image.svg" alt="avatar-staff-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1103-1378&t=l00MTz1vGS7FsvNM-4">
+                <img src="/src/assets/avatar-staff-image.svg" alt="avatar-staff-image">
+              </a>
             </div>
           </article>
 
@@ -65,11 +69,13 @@
             </div>
             <div class="article-paragraph">
               <p>
-                Circle avatar initials are a design element commonly used when a user hasn't uploaded a custom profile picture or when a simplified representation is preferred. Instead of an image, the avatar consists of stylized initials representing the user's name.
+                A circle resident avatar image is a common design element used to represent a family member or entity within a digital interface. This circular image is often associated with profile pictures, user icons, or identifiers.
               </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/avatar-family-image.svg" alt="avatar-family-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1103-1378&t=l00MTz1vGS7FsvNM-4">
+               <img src="/src/assets/avatar-family-image.svg" alt="avatar-family-image">
+              </a>
             </div>
           </article>
 
@@ -145,10 +151,14 @@ export default {
 .hero-title-contentblock h1 {
   color: #000;
   font-family: "Tiempos Fine-bold", sans-serif;
-  font-size: 3rem;
+  font-size: 3.75rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 3.6rem */
+  line-height: 92px;
+}
+
+.separator hr {
+  max-width: 75%;
 }
 
 .hero-title-contentblock .mini-title {
@@ -162,12 +172,13 @@ export default {
 }
 
 .hero-title-contentblock .description {
-  color: rgb(103, 94, 94);
+  color: black;
   font-family: Lato, sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 1.35rem */
+  line-height: 26px;
+  max-width: 75%;
 }
 
 .article-content .article-header h2 {
@@ -181,12 +192,12 @@ export default {
 }
 
 .article-paragraph p {
-  color: rgb(103, 94, 94);
+  color: black;
   font-family: Lato, sans-serif;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 1.2rem */
+  line-height: 24px;
   max-width: 75%;
 }
 
@@ -264,6 +275,14 @@ export default {
 }
 
 @media only screen and (max-width: 430px) {
+  .hero-title-contentblock .description {
+    max-width: 100%;
+  }
+
+  .separator hr {
+    max-width: 100%;
+  }
+
   .article-image img {
     width: 100%;
   }

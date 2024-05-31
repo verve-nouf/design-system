@@ -9,10 +9,10 @@
               <p class="mini-title">Components</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Breadcrumbs</h1>
+              <h1>Notifications</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Clickable elements used to indicate navigation paths.</p>
+              <p class="description">Messages providing feedback or updates to users.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,11 +28,11 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A breadcrumb is a user interface (UI) element that helps users navigate through a digital interface by showing their current location within the application's hierarchy. Breadcrumbs provide a clear and actionable way for users to understand their position and easily return to previous pages or sections.
+                Notifications are user interface (UI) elements that provide feedback or updates to users. They are used to inform users about important events, errors, or confirmations within an application.
+                <br>
               </p>
-              <br>
               <p>
-                They typically consist of a series of clickable links that represent the path taken to reach the current page, responding to user input, such as a mouse click or a tap on a touchscreen device.
+                They typically appear as messages or alerts on the screen, drawing the user's attention to important information or actions needed.
               </p>
             </div>
           </article>
@@ -42,19 +42,37 @@
           </div>
 
           <article class="article-content">
+            <div class="article-header">
+              <h2>Types</h2>
+            </div>
             <div class="article-subheader">
               <h3>
-                Breadcrumb
+                Success notification
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Help users to quickly move back to higher levels of the hierarchy, with numbers.
+                The purpose of a success notification is to inform users when a task or action has been completed successfully. Success notifications provide positive feedback to users, confirming that their action was successful and encouraging them to proceed with confidence. They typically appear as messages or alerts on the screen, indicating the successful completion of a task or action and possibly providing additional information or next steps.               </p>
+            </div>
+            <div class="article-image">
+              <img src="/src/assets/success-notification-image.svg" alt="profile-card-image">
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Error notification
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                The purpose of an error notification is to alert users when an error or issue has occurred during their interaction with an application or system. Error notifications provide feedback to users about the nature of the problem, helping them understand what went wrong and how to resolve it.
               </p>
             </div>
             <div class="article-image">
-              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=315-2688&t=l00MTz1vGS7FsvNM-4">
-               <img src="/src/assets/breadcrumb-image.svg" alt="breadcrumb-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=330-122&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/error-notification-image.svg" alt="profile-card-image">
               </a>
             </div>
           </article>
@@ -67,23 +85,16 @@
           <article class="article-content">
             <div class="article-header">
               <h2>
-                Best practices
+                Accesibility
               </h2>
             </div>
             <div class="article-paragraph">
-              <p>
-                Use breadcrumbs to enhance navigation and provide users with a clear path back to previous sections. Place them at the top of the page, typically below the header, to ensure they are easily visible.
-
-                Ensure each breadcrumb link is clickable and accurately represents the corresponding section or page. Use concise and descriptive labels to avoid confusion and enhance user understanding.
+              <p>Accessibility for keyboard users is essential. Users should be able to navigate to and interact with popup notifications using only the keyboard. This includes opening, closing, and interacting with the notification's content using keyboard shortcuts or tab navigation.
                 <br><br>
-                For complex hierarchies, keep the breadcrumb trail simple by showing only the most relevant levels. Avoid overloading the breadcrumb trail with too many levels, as this can lead to visual clutter and reduce its effectiveness.
+                Screen reader compatibility is crucial. Popup notifications should be properly labeled and announced by screen readers. Semantic HTML elements and ARIA attributes should be used to convey the purpose and content of the notification to users who rely on screen readers.
               </p>
             </div>
-            <div class="article-image">
-                <img src="/src/assets/breadcrumb-image-practices.svg" alt="breadcrumbs-bestpractices-image">
-            </div>
           </article>
-
         </div>
       </div>
     </div>
@@ -101,7 +112,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "breadCrumbsView",
+  name: "NotificationsView",
   components: {SideBar, Footer}
 }
 </script>

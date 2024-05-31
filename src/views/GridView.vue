@@ -9,10 +9,10 @@
               <p class="mini-title">Components</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Breadcrumbs</h1>
+              <h1>Grid</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Clickable elements used to indicate navigation paths.</p>
+              <p class="description">Layout system for organizing content in a structured format.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,11 +28,11 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A breadcrumb is a user interface (UI) element that helps users navigate through a digital interface by showing their current location within the application's hierarchy. Breadcrumbs provide a clear and actionable way for users to understand their position and easily return to previous pages or sections.
+                A grid is a user interface (UI) layout system used to organize content in a structured format within a digital interface. Grids help in aligning elements consistently and creating a visually appealing design.
               </p>
               <br>
               <p>
-                They typically consist of a series of clickable links that represent the path taken to reach the current page, responding to user input, such as a mouse click or a tap on a touchscreen device.
+                They typically consist of rows and columns that arrange content into a cohesive, easy-to-navigate layout.
               </p>
             </div>
           </article>
@@ -42,19 +42,84 @@
           </div>
 
           <article class="article-content">
+            <div class="article-header">
+              <h2>Types</h2>
+            </div>
             <div class="article-subheader">
               <h3>
-                Breadcrumb
+                Directory grid header
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Help users to quickly move back to higher levels of the hierarchy, with numbers.
+                The purpose of a grid header is to provide descriptive labels for the columns in a grid. Grid headers typically contain titles or headings that represent the data within each column, helping users understand the content and context of the information presented in the grid. Grid headers serve as a reference point for users to identify and interpret the data in the grid, facilitating easier navigation and comprehension.
               </p>
             </div>
             <div class="article-image">
-              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=315-2688&t=l00MTz1vGS7FsvNM-4">
-               <img src="/src/assets/breadcrumb-image.svg" alt="breadcrumb-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1120-5310&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/directory-grid-header-image.svg" alt="profile-card-image">
+              </a>
+            </div>
+          </article>
+
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Directory grid row
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                The purpose of a grid row is to organize and display individual records or data entries within the grid. Each row in the grid represents a distinct data entity, with each cell within the row containing specific data values corresponding to the columns defined in the grid header. Grid rows enable users to view and interact with individual data entries, facilitating tasks such as data entry, editing, sorting, and filtering within the grid. Grid rows provide a structured and organized layout for presenting tabular data, enhancing usability and efficiency for users interacting with the grid.              </p>
+            </div>
+            <div class="article-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1120-5310&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/directory-grid-row.svg" alt="profile-card-image">
+              </a>
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Incoming grid header
+              </h3>
+            </div>
+            <div class="article-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1120-5310&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/incoming-grid-header.svg" alt="profile-card-image">
+              </a>
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Incoming grid row
+              </h3>
+            </div>
+            <div class="article-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1120-5310&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/incoming-grid-row.svg" alt="profile-card-image">
+              </a>
+            </div>
+          </article>
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Toolbar header
+              </h3>
+            </div>
+            <div class="article-paragraph">
+              <p>
+                The purpose of toolbar header is to filter through data and display this in a grid.
+              </p>
+            </div>
+            <div class="article-image">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1120-5310&t=l00MTz1vGS7FsvNM-11">
+                <img src="/src/assets/toolbar-header.svg" alt="profile-card-image">
               </a>
             </div>
           </article>
@@ -67,23 +132,18 @@
           <article class="article-content">
             <div class="article-header">
               <h2>
-                Best practices
+                Accesibility
               </h2>
             </div>
             <div class="article-paragraph">
               <p>
-                Use breadcrumbs to enhance navigation and provide users with a clear path back to previous sections. Place them at the top of the page, typically below the header, to ensure they are easily visible.
-
-                Ensure each breadcrumb link is clickable and accurately represents the corresponding section or page. Use concise and descriptive labels to avoid confusion and enhance user understanding.
+                Enable keyboard navigation so users can navigate through the grid using the tab and arrow keys. Maintain logical tab order and ensure visible focus indicators. Users should be able to move between cells and headers seamlessly.
+                Maintain sufficient color contrast between text, background, and borders within the grid to ensure readability for users with visual impairments. Avoid relying solely on color to convey information and use additional visual cues like borders or patterns.
                 <br><br>
-                For complex hierarchies, keep the breadcrumb trail simple by showing only the most relevant levels. Avoid overloading the breadcrumb trail with too many levels, as this can lead to visual clutter and reduce its effectiveness.
+                All interactive elements are keyboard-navigable with clear focus indicators. Images include descriptive alt text, and the design avoids relying solely on color to convey information, ensuring usability for individuals with color blindness. The card is also responsive, adapting to various screen sizes and orientations. This approach ensures that all users, regardless of their abilities, can easily access and understand the information presented.
               </p>
             </div>
-            <div class="article-image">
-                <img src="/src/assets/breadcrumb-image-practices.svg" alt="breadcrumbs-bestpractices-image">
-            </div>
           </article>
-
         </div>
       </div>
     </div>
@@ -101,7 +161,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "breadCrumbsView",
+  name: "GridView",
   components: {SideBar, Footer}
 }
 </script>
@@ -201,6 +261,11 @@ export default {
 .article-content .article-image {
   margin-top: 30px;
   margin-bottom: 120px;
+
+}
+
+.article-content .article-image img {
+  width: 800px;
 }
 
 @font-face {
