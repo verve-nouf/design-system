@@ -69,9 +69,15 @@
             </div>
             <div class="article-paragraph">
               <p>
-                Icons on small avatars (32 pixels) can be challenging for those with visibility impairments. Consider adding a text status or tooltip for clarity. Avatars are static by default, so if you add interactions, ensure you include states and keyboarding interactions for accessibility.
+                Check the Cubigo fonts here!
               </p>
             </div>
+            <div class="icon-box">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=594-13453&t=cj5JTr89gxAuAfVU-4">
+                <img src="../assets/figma-block-fonts.svg" alt="" srcset="">
+              </a>
+            </div>
+
           </article>
 
         </div>
@@ -114,6 +120,11 @@ export default {
 
 .hero-title-contentblock {
   margin-bottom: 15px;
+}
+
+.icon-box {
+  margin-top: 25px;
+  cursor: pointer;
 }
 
 .separator {

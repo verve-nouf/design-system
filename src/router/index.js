@@ -21,6 +21,7 @@ import OptionsView from "@/views/OptionsView.vue";
 import PillsView from "@/views/PillsView.vue";
 import BrandTypographyView from "@/views/brandTypographyView.vue";
 import AppTypographyView from "@/views/appTypographyView.vue";
+import iconsMiscellaneousView from "@/views/iconsMiscellaneousView.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -129,6 +130,11 @@ const router = createRouter({
             path: '/apptypo',
             name: 'apptypo',
             component: AppTypographyView
+        },
+        {
+            path: '/icons-miscellaneous',
+            name: 'icons-miscellaneous',
+            component: iconsMiscellaneousView
         },
 
 

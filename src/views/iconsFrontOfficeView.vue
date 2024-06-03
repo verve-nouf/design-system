@@ -6,13 +6,13 @@
         <div class="content-hero">
           <div class="hero-title">
             <div class="hero-title-contentblock">
-              <p class="mini-title">Components</p>
+              <p class="mini-title">Icons</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Breadcrumbs</h1>
+              <h1>Front office</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Clickable elements used to indicate navigation paths.</p>
+              <p class="description">Icons that are ment for front office.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,11 +28,7 @@
             </div>
             <div class="article-paragraph">
               <p>
-                A breadcrumb is a user interface (UI) element that helps users navigate through a digital interface by showing their current location within the application's hierarchy. Breadcrumbs provide a clear and actionable way for users to understand their position and easily return to previous pages or sections.
-              </p>
-              <br>
-              <p>
-                They typically consist of a series of clickable links that represent the path taken to reach the current page, responding to user input, such as a mouse click or a tap on a touchscreen device.
+                Filled icons, often solid in color, are generally faster for users to recognize, especially at small sizes. They can be less flexible in design, though, and might appear cluttered at larger sizes.
               </p>
             </div>
           </article>
@@ -41,19 +37,20 @@
             <hr>
           </div>
 
+
+
           <article class="article-content">
             <div class="article-subheader">
               <h3>
-                Breadcrumb
+                Front office
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Help users to quickly move back to higher levels of the hierarchy, with numbers.
-              </p>
+                Frontoffice icons in a filled style are designed to represent user-facing components and functionalities within a digital interface. These icons signify elements that directly interact with customers or end-users, enhancing the visual appeal and accessibility of front-end features.              </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/breadcrumb-image.svg" alt="breadcrumb-image">
+              <img src="/src/assets/icons-front-office-imageinput-one-image.svg" alt="breadcrumb-image">
             </div>
           </article>
 
@@ -65,22 +62,18 @@
           <article class="article-content">
             <div class="article-header">
               <h2>
-                Best practices
+                Resources
               </h2>
             </div>
             <div class="article-paragraph">
               <p>
-                Opt for a single primary button within a layout to emphasize the most critical action. In scenarios
-                where multiple buttons share equal importance, ensure a uniform appearance by employing neutral
-                backgrounds for all buttons.
-                <br><br>
-                When dealing with numerous minor actions, maintain a clean and uncluttered layout by applying outline,
-                subtle, or transparent styles to all buttons. This helps prevent visual overwhelm and ensures a more
-                organized and user-friendly interface.
+                Check the Cubigo icons here!
               </p>
             </div>
-            <div class="article-image">
-              <img src="/src/assets/breadcrumb-image-practices.svg" alt="breadcrumbs-bestpractices-image">
+            <div class="icon-box">
+              <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=594-13453&t=cj5JTr89gxAuAfVU-4">
+                <img src="../assets/figma-block-icons.svg" alt="" srcset="">
+              </a>
             </div>
           </article>
 
@@ -132,13 +125,27 @@ export default {
   margin: 75px 0;
 }
 
+.separator hr {
+  border: 0;
+  border-bottom: 1px solid #edebe9;
+}
+
+.icon-box {
+  margin-top: 25px;
+  cursor: pointer;
+}
+
 .hero-title-contentblock h1 {
   color: #000;
   font-family: "Tiempos Fine-bold", sans-serif;
-  font-size: 3rem;
+  font-size: 3.75rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 3.6rem */
+  line-height: 92px;
+}
+
+.separator hr {
+  max-width: 75%;
 }
 
 .hero-title-contentblock .mini-title {
@@ -152,12 +159,13 @@ export default {
 }
 
 .hero-title-contentblock .description {
-  color: rgba(0, 0, 0, 0.50);
+  color: black;
   font-family: Lato, sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 1.35rem */
+  line-height: 26px;
+  max-width: 75%;
 }
 
 .article-content .article-header h2 {
@@ -171,12 +179,12 @@ export default {
 }
 
 .article-paragraph p {
-  color: rgb(103, 94, 94);
+  color: black;
   font-family: Lato, sans-serif;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 1.2rem */
+  line-height: 24px;
   max-width: 75%;
 }
 
@@ -254,6 +262,14 @@ export default {
 }
 
 @media only screen and (max-width: 430px) {
+  .hero-title-contentblock .description {
+    max-width: 100%;
+  }
+
+  .separator hr {
+    max-width: 100%;
+  }
+
   .article-image img {
     width: 100%;
   }

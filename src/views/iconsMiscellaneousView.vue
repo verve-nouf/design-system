@@ -6,13 +6,13 @@
         <div class="content-hero">
           <div class="hero-title">
             <div class="hero-title-contentblock">
-              <p class="mini-title">Fonts</p>
+              <p class="mini-title">Icons</p>
             </div>
             <div class="hero-title-contentblock">
-              <h1>Brand typography</h1>
+              <h1>Miscellaneous</h1>
             </div>
             <div class="hero-title-contentblock">
-              <p class="description">Fonts that are used on non-application products.</p>
+              <p class="description">Miscellaneous icons are those that don't fit neatly into any other category. They represent a wide range of objects, concepts, and actions that you might find in a user interface.</p>
             </div>
           </div>
           <div class="hero-content-block">
@@ -28,10 +28,8 @@
             </div>
             <div class="article-paragraph">
               <p>
-                The primary font we use is Tiempos Fine. This font is applied to large titles and text that should stand out more, such as call-to-actions or major category titles. Its slightly playful character makes it accessible, friendly, and thus lowers barriers.              </p>
-              <br>
-              <p>
-                As a secondary font, for descriptions and body text, or to create a clear distinction, we use Lato. When Tiempos Fine is not available, Playfair can be used as an alternative (e.g., for digital Google applications).              </p>
+                Used everywhere, where front or back -office icons won't be used.
+              </p>
             </div>
           </article>
 
@@ -39,67 +37,69 @@
             <hr>
           </div>
 
-
           <article class="article-content">
-            <div class="article-header">
-              <h2>Fonts</h2>
-            </div>
             <div class="article-subheader">
               <h3>
-                Tiempos Fine
+                Essentials
               </h3>
             </div>
             <div class="article-paragraph">
               <p>
-                Tiempos Fine is an optical size from the popular Tiempos family by Klim Type Foundry. It was created for National Geographic Magazine and designed by Noe Blanco. The design is based on Tiempos Headline but features even higher contrast and sharper details. It is available in six weights with matching italics.
+                Icons not used for front or back -office, but that are essential
               </p>
             </div>
             <div class="article-image">
-                <img src="/src/assets/tiempos-fine-image.svg" alt="button-image">
+              <img src="/src/assets/icons-essentials-imageinput-one-image.svg" alt="breadcrumb-image">
             </div>
           </article>
-
 
 
           <article class="article-content">
             <div class="article-subheader">
               <h3>
-                Lato
+                Navbar filled icons
               </h3>
             </div>
-            <div class="article-paragraph">
-              <p>
-                Lato is a sans-serif typeface designed by Łukasz Dziedzic. It was released in 2015. The name "Lato" is Polish for "summer.
-              </p>
-            </div>
             <div class="article-image">
-              <img src="/src/assets/lato-image.svg" alt="avatar-staff-image">
+              <img src="/src/assets/icons-navbar-filled-imageinput-one-image.svg" alt="breadcrumb-image">
             </div>
           </article>
 
+
+          <article class="article-content">
+            <div class="article-subheader">
+              <h3>
+                Navbar outlined icons
+              </h3>
+            </div>
+            <div class="article-image">
+              <img src="/src/assets/icons-navbar-outline-imageinput-one-image.svg" alt="breadcrumb-image">
+            </div>
+          </article>
 
           <div class="separator">
             <hr>
           </div>
-
 
           <article class="article-content">
             <div class="article-header">
               <h2>
-                Resource
+                Resources
               </h2>
             </div>
             <div class="article-paragraph">
               <p>
-                Check the Cubigo fonts here!
+                Check the Cubigo icons here!
               </p>
             </div>
             <div class="icon-box">
               <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=594-13453&t=cj5JTr89gxAuAfVU-4">
-                <img src="../assets/figma-block-fonts.svg" alt="" srcset="">
+                <img src="../assets/figma-block-icons.svg" alt="" srcset="">
               </a>
             </div>
           </article>
+
+
 
         </div>
       </div>
@@ -118,7 +118,7 @@ import Footer from "@/components/Footer.vue";
 import SideBar from "@/components/SideBar.vue";
 
 export default {
-  name: "brandTypographyView",
+  name: "iconsMiscellaneousView",
   components: {SideBar, Footer}
 }
 </script>
@@ -134,15 +134,14 @@ export default {
   margin-left: 20vw;
 }
 
-.hero-title p {
-  font-family: Lato, "sans-serif";
-  color: #0092E1;
-}
-
-
 .icon-box {
   margin-top: 25px;
   cursor: pointer;
+}
+
+.hero-title p {
+  font-family: Lato, "sans-serif";
+  color: #0092E1;
 }
 
 .hero-title-contentblock {

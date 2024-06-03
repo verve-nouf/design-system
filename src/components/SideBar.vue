@@ -80,6 +80,14 @@
               </router-link>
             </div>
 
+            <div class="sub-item">
+              <router-link to="/icons-miscellaneous">
+                <a class="active">
+                  Miscellaneous
+                </a>
+              </router-link>
+            </div>
+
           </div>
         </div>
 
