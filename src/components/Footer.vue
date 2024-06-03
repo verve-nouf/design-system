@@ -7,9 +7,8 @@
     <div class="footer-content">
       <h3>© Cubigo 2023</h3>
       <ul class="external-links">
-        <li><a>Accesibility</a></li>
-        <li><a>Terms of Use</a></li>
-        <li><a>GitHub</a></li>
+        <li><a href="https://support-community.cubigo.com/hc/en-us/articles/360029068131-Terms-and-Conditions">Terms of Use</a></li>
+        <li><a href="https://github.com/verve-nouf/design-system">GitHub</a></li>
       </ul>
     </div>
   </div>
@@ -47,6 +46,16 @@ footer {
   justify-content: space-between;
   padding: 45px;
 }
+
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li a:visited {
+  color: black;
+}
+
 
 .logo-container img {
   margin: 0 45px;

@@ -87,26 +87,26 @@
             -->
             <div class="resource-text">
               <div class="resource-item">
-                <a>Accesibility </a>
+                <a href="https://github.com/verve-nouf/design-system">GitHub </a>
                 <hr>
               </div>
               <div class="resource-item">
-                <a>GitHub </a>
-                <hr>
-              </div>
-              <div class="resource-item">
-                <a>Figma </a>
+                <a href="https://www.figma.com/design/zJavukqccaSxJfIYMb2z4X/Cubigo-DS?node-id=1233-1758">Figma </a>
                 <hr>
               </div>
 
             </div>
             <div class="resource-text">
               <div class="resource-item">
-                <a>Content design </a>
+                <router-link to="/design">
+                  <a>Design</a>
+                </router-link>
                 <hr>
               </div>
               <div class="resource-item">
-                <a>Design guidelines </a>
+                <router-link to="/guidelines">
+                  <a>Guidelines </a>
+                </router-link>
                 <hr>
               </div>
             </div>
@@ -138,6 +138,7 @@
   color: #0092E1;
   font-weight: 800 !important;
 }
+
 
 #develop-banner {
   margin: 0;
@@ -240,6 +241,15 @@
 .resource-text a:hover {
   color: #0092E1;
 }
+
+.resource-text a {
+  text-decoration: none;
+}
+
+.resource-text a:visited {
+  color: #0092E1;
+}
+
 
 
 .resource-item {
