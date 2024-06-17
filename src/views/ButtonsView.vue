@@ -174,37 +174,37 @@
                 </div>
                 <div class="instruction-content">
                   <h4>Icon leftside</h4>
-                  <p>Surface with a color as backdorp for the label and for the optional icons</p>
+                  <p>Surface with a color as backdorp for the label and for the optional icons.</p>
                 </div>
               </div>
 
               <div class="instruction">
                 <div class="pointer-container">
-                  <img src="/src/assets/circle-four-pointer.svg" alt="pointer">
+                  <img src="/src/assets/circle-one-pointer.svg" alt="pointer">
                 </div>
                 <div class="instruction-content">
                   <h4>Icon rightside</h4>
-                  <p>Surface with a color as backdorp for the label and for the optional icons</p>
+                  <p>Text that supports the contextual messaging, text color should match icon color.</p>
                 </div>
               </div>
 
               <div class="instruction">
                 <div class="pointer-container">
-                  <img src="/src/assets/circle-four-pointer.svg" alt="pointer">
+                  <img src="/src/assets/circle-one-pointer-1.svg" alt="pointer">
                 </div>
                 <div class="instruction-content">
-                  <h4>Icon leftside</h4>
-                  <p>Surface with a color as backdorp for the label and for the optional icons</p>
+                  <h4>Surface</h4>
+                  <p>Support the label messaging visually in the most frequently employed position. Avoid using this in combination with an icon on the right side.</p>
                 </div>
               </div>
 
               <div class="instruction">
                 <div class="pointer-container">
-                  <img src="/src/assets/circle-four-pointer.svg" alt="pointer">
+                  <img src="/src/assets/circle-one-pointer-2.svg" alt="pointer">
                 </div>
                 <div class="instruction-content">
-                  <h4>Icon leftside</h4>
-                  <p>Surface with a color as backdorp for the label and for the optional icons</p>
+                  <h4>Label</h4>
+                  <p>Provide visual reinforcement for label messaging, typically in the form of a directional indicator. Avoid using this in combination with an icon on the left side.</p>
                 </div>
               </div>
             </div>
@@ -251,7 +251,7 @@
               </p>
             </div>
             <div class="article-image">
-              <img src="/src/assets/buttonspacing-image.svg" alt="button-image">
+              <img src="/src/assets/button-sizing.svg" alt="button-image">
             </div>
           </article>
 
